@@ -1,0 +1,9 @@
+The Definitive Guide to Yii
+===========================
+
+All Rights Reserved.
+
+2008 &copy; Yii Software LLC.
+
+
+<div class="revision">$Id$</div>

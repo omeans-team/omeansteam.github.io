@@ -1,0 +1,4 @@
+.color-text-white{color: white!important;}
+.text-white-fade {color: hsla(0,0%,100%,.7) !important;}
+.text-shadow{text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;}
+.fw-bold{font-weight: bold !important;}

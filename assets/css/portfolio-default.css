@@ -1,0 +1,17 @@
+html{margin: 0;padding-bottom: 50px;}
+body{margin: 0;}
+.col{text-align: center;}
+.prof{height: 165px;margin-top: 12px;margin-bottom: 24px;color: white;}
+.prof img{margin-bottom: 16px; height: 96px;border-radius: 50%;}
+.prof a{text-decoration: none;}
+.prof h1{font-size: 16px; font-weight: bold;color: white;}
+.prof h1:hover{color: #e47909;}
+.prof h2{font-size: 14px; font-weight: bold;}
+.btn-link{color: #333;text-decoration: none; font-family: 'Bebas Neue', cursive;}
+.btn-link button{background-color: white;width: 100%;margin: 6px 0px;}
+.btn-link button:hover{background-color: transparent; border-color: white; color: white;}
+.icon-link{margin-top: 32px;margin-bottom: 32px;}
+.icon-link a{color: white;border-color: white;font-size: 30px;margin: 0px 10px;transition: font-size 0.2s ease;}
+.icon-link a:hover{font-size: 35px;}
+.cr{color: white; position: fixed; bottom: 0; width: 100%;}
+.cr a{text-decoration: none;color: #e47909;}

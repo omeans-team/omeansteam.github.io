@@ -1,0 +1,166 @@
+:root, [data-color-mode="dark"][data-dark-theme*="light"], [data-color-mode="light"][data-light-theme*="light"] {
+    --color-workflow-card-connector: var(--color-scale-gray-3);
+    --color-workflow-card-connector-bg: var(--color-scale-gray-3);
+    --color-workflow-card-connector-inactive: var(--color-border-primary);
+    --color-workflow-card-connector-inactive-bg: var(--color-border-primary);
+    --color-workflow-card-connector-highlight: var(--color-scale-blue-4);
+    --color-workflow-card-connector-highlight-bg: var(--color-scale-blue-4);
+    --color-workflow-card-bg: var(--color-scale-white);
+    --color-workflow-card-inactive-bg: var(--color-bg-canvas-inset);
+    --color-workflow-card-header-shadow: transparent;
+    --color-workflow-card-progress-complete-bg: var(--color-scale-blue-4);
+    --color-workflow-card-progress-incomplete-bg: var(--color-scale-gray-2);
+    --color-discussions-answer-border: var(--color-scale-green-5);
+    --color-discussions-answer-icon: var(--color-scale-green-6);
+    --color-discussions-answer-text: var(--color-scale-green-6);
+    --color-discussions-state-answered-icon: var(--color-scale-white);
+    --color-bg-discussions-row-emoji-box: rgba(209,213,218,0.5);
+    --color-upvote-icon-bg: var(--color-scale-blue-1);
+    --color-downvote-icon-bg: var(--color-scale-red-1);
+    --color-search-hover-hl: var(--color-scale-white);
+    --color-notifications-button-text: var(--color-text-secondary);
+    --color-notifications-button-hover-text: var(--color-text-primary);
+    --color-notifications-button-hover-bg: var(--color-scale-gray-2);
+    --color-notifications-row-read-bg: var(--color-bg-tertiary);
+    --color-notifications-row-bg: var(--color-scale-white);
+    --color-page-header-bg: var(--color-bg-secondary);
+    --color-timeline-merged-bg: var(--color-scale-purple-5);
+    --color-icon-directory: var(--color-scale-blue-3);
+    --color-calendar-halloween-graph-day-L1-bg: #ffee4a;
+    --color-calendar-halloween-graph-day-L2-bg: #ffc501;
+    --color-calendar-halloween-graph-day-L3-bg: #fe9600;
+    --color-calendar-halloween-graph-day-L4-bg: #03001c;
+    --color-calendar-graph-day-bg: #ebedf0;
+    --color-calendar-graph-day-border: rgba(27,31,35,0.06);
+    --color-calendar-graph-day-L1-bg: #9be9a8;
+    --color-calendar-graph-day-L2-bg: #40c463;
+    --color-calendar-graph-day-L3-bg: #30a14e;
+    --color-calendar-graph-day-L4-bg: #216e39;
+    --color-calendar-graph-day-L1-border: rgba(27,31,35,0.06);
+    --color-calendar-graph-day-L2-border: rgba(27,31,35,0.06);
+    --color-calendar-graph-day-L3-border: rgba(27,31,35,0.06);
+    --color-calendar-graph-day-L4-border: rgba(27,31,35,0.06);
+    --color-text-white: var(--color-scale-white);
+}
+:root, [data-color-mode="dark"][data-dark-theme*="light"], [data-color-mode="light"][data-light-theme*="light"] {
+    --color-social-reaction-border: var(--color-scale-blue-1);
+    --color-social-reaction-bg: var(--color-scale-gray-0);
+    --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+    --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+}
+html{
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    color: var(--color-text-primary);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+    line-height: 1.5;
+}
+header{
+	height: 56px;
+	background-color: #fff;
+}
+.position-relative{
+	position: relative !important;
+}
+.overflow-hidden{
+    overflow: hidden !important;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+}
+.Header-old{
+	height: 56px;
+}
+.home-hero-container {
+    height: 94vh;
+    min-height: 860px;
+    background-color: #040d21;
+max-height: 926px;
+}
+.height-full {
+    height: 100% !important;
+}
+.width-full {
+    width: 100% !important;
+}
+.left-0 {
+    left: 0 !important;
+}
+.home-git-log-dark-icons::after, .home-git-log-dark::after {
+    background: #42526d;
+}
+.wide-block {
+    border-radius: 1rem !important;
+}
+.wide-block {
+    background-color: #040d21;
+    max-width: 1464px;
+    padding: 6.5rem 0 0 !important;
+}
+.box-shadow-default-mktg {
+    box-shadow: 0 2.76726px 2.21381px rgba(0,0,0,.07),0 6.6501px 5.32008px rgba(0,0,0,.043),0 12.5216px 10.0172px rgba(0,0,0,.034),0 22.3363px 17.869px rgba(0,0,0,.028),0 41.7776px 33.4221px rgba(0,0,0,.024),0 100px 80px rgba(0,0,0,.017) !important;
+}
+.font-mktg {
+    font-family: Alliance No.1,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    word-break: keep-all;
+}
+.pt-6 {
+    padding-top: 40px !important;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+}
+.container-xl {
+    max-width: 1280px;
+}
+.container-lg, .container-xl {
+    margin-left: auto;
+    margin-right: auto;
+}
+.color-bg-secondary {
+    background-color: var(--color-bg-secondary) !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.py-5 {
+    padding-bottom: 32px !important;
+    padding-top: 32px !important;
+}
+.mb-5 {
+    margin-bottom: 32px !important;
+}
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+.d-sm-flex {
+    display: flex !important;
+}
+.f6 {
+    font-size: 12px !important;
+}
+.py-4 {
+    padding-bottom: 24px !important;
+    padding-top: 24px !important;
+}
+.flex-items-center {
+    align-items: center !important;
+}
+.flex-justify-between {
+    justify-content: space-between !important;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
+.container-xl {
+    max-width: 1280px;
+}
+.container-lg, .container-xl {
+    margin-left: auto;
+    margin-right: auto;
+}

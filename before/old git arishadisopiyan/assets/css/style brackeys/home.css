@@ -1,0 +1,111 @@
+.computer p {
+ font-size:24px;
+ line-height:39px
+}
+.computer h3 {
+ padding-top:10px;
+ font-weight:lighter
+}
+.computer h1 {
+ margin:auto;
+ line-height:60px
+}
+.computer .circle-image {
+ height:330px;
+ width:330px;
+ margin-left:20px;
+ border-radius:50%;
+ background-color:#2e2e2e
+}
+.computer .circle-image img {
+ display:block;
+ position:relative;
+ max-width:none
+}
+.computer .circle-image .computer {
+ top:20px;
+ left:-32px
+}
+.computer .left {
+ float:left;
+ margin-right:60px
+}
+.computer .text {
+ padding-top:10px
+}
+.computer .button {
+ margin-top:20px;
+ width:300px;
+ float:left
+}
+.featured-video {
+ padding-top:50px
+}
+.featured-video .videoWrapper iframe {
+ float:right;
+ margin-left:30px;
+ box-shadow:2px 2px 20px #232323
+}
+.omeans-store {
+ margin-bottom:50px
+}
+.omeans-store p {
+ font-size:24px;
+ line-height:39px
+}
+.omeans-store h3 {
+ padding-top:10px;
+ font-weight:lighter
+}
+.omeans-store h1 {
+ margin:auto;
+ line-height:60px
+}
+.omeans-store .circle-image {
+ height:180px;
+ width:180px;
+ margin-top:50px;
+ border-radius:50%;
+ background-color:#2e2e2e
+}
+.omeans-store .circle-image img {
+ display:block;
+ position:relative;
+ max-width:none
+}
+.omeans-store .circle-image .sword {
+ bottom:60px;
+ left:30px
+}
+.omeans-store .left {
+ float:left;
+ margin-right:60px
+}
+.omeans-store .left {
+ float:left;
+ margin-right:60px
+}
+.omeans-store .text {
+ padding-top:5px
+}
+.omeans-store .button {
+ margin-top:27px;
+ margin-left:240px;
+ width:300px
+}
+.three-sections {
+ padding-top:30px;
+ height:190px
+}
+.three-sections h3 {
+ margin:0
+}
+.three-sections div {
+ width:33.333%;
+ float:left;
+ box-sizing:border-box;
+ padding:10px
+}
+.three-sections a {
+ font-size:18px
+}

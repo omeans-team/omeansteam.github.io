@@ -1,0 +1,41 @@
+.color-bg-blue{background-color:blue!important}
+.color-bg-transparent{background-color:transparent!important}
+.color-bg-dark{background-color:#333!important}
+.color-bg-white{
+    background-color:#fff;
+}
+
+
+
+/*MYCOLOR PALETTE
+no 1 #6c49b1 --> opacity 50% #b5a4d8
+no 2 #4c6dd7 --> opacity 50% #a5b6eb
+no 3 #2bacc1 --> opacity 50% #95d5e0
+no 4 #7ddc7e --> opacity 50% #beedbe
+no 5 #fff34c --> opacity 50% #fff9a5
+no 6 #ffbe2e --> opacity 50% #ffde96
+no 7 #fe7524 --> opacity 50% #feba91
+no 8 #f74231 --> opacity 50% #fba098
+no 9 #cc3771 --> opacity 50% #e59bb8 */
+/*FONT COLOR*/
+
+
+.omeans-project {
+ color:#df2823 !important
+}
+.site-header .how-to-do {
+ color:#f76a04 !important
+}
+.site-header .discord {
+ color:#fac200 !important
+}
+.site-header .oldsite {
+ color:#fedd27 !important
+}
+.site-header .header-limiter nav a:hover {
+ background-color:#252525!important;
+ box-shadow:inset 0 1px 3px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.1)!important;
+ text-shadow:0 1px 3px rgba(0,0,0,0.5)!important
+}
+
+ #mainNav .navbar-nav li.nav-item a.nav-link:hover{color:#cf0063}

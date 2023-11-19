@@ -1,0 +1,22 @@
+{
+  "name": "arishadisopiyan.github.io",
+  "version": "1.0.0",
+  "description": "(https://github.com/ArisHadisopiyan/arishadisopiyan.github.io/settings/pages).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArisHadisopiyan/arishadisopiyan.github.io.git"
+  },
+  "author": "aris hadisopiyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArisHadisopiyan/arishadisopiyan.github.io/issues"
+  },
+  "homepage": "https://github.com/ArisHadisopiyan/arishadisopiyan.github.io#readme",
+  "dependencies": {
+    "three": "^0.128.0"
+  }
+}

@@ -1,0 +1,29 @@
+
+/* FONT FAMILY */
+/* FONT FAMILY */
+/* FONT FAMILY */
+.ff-bebas{
+    font-family: var(--font-family-bebas-neue);
+}
+.ff-mono{
+    font-family: var(--font-family-monospace);
+}
+
+.c-dark1{
+    color: var(--suanggi-dark1);
+}
+.c-white{
+    color: var(--suanggi-white);
+}
+.c-white a{
+    color: var(--suanggi-white);
+}
+.bg-dark1{
+    background-color: var(--suanggi-dark1);
+}
+#navbar ul li a {
+    text-decoration: none!important;
+    color: #64a5ad;
+    font-size: 20px;
+    transform: 0.5s;
+}

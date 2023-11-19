@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+    <head>
+        <!-- META TAG START -->
+        <!-- META TAG START -->
+        <!-- META TAG START -->
+        <meta name="google-site-verification" content="flliSue9AwQckFdilGQV0b7QVydtNM3Sb9vnzSj705A"/>
+        <!-- Start Required meta tags -->
+        <meta charset="utf-8"/>
+        <!-- Responsive Start -->
+        <!-- Responsive Start -->
+        <!-- Responsive Start -->
+        <!-- Responsive viewport meta tag -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> -->
+        <!-- End Required meta tags -->
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <b:include data='blog' name='all-head-content'/>
+        <!-- Responsive End -->
+        <!-- Responsive End -->
+        <!-- Responsive End -->
+        <!-- META TAG END -->
+        <!-- META TAG END -->
+        <!-- META TAG END -->
+        <!-- LINK START -->
+        <!-- LINK START -->
+        <!-- LINK START -->
+        <!-- ICON START -->
+        <!-- ICON START -->
+        <!-- ICON START -->
+        <link rel="icon" href="assets/images/omeans-icon/icon.gif" type="image/gif" sizes="16x16"/>
+        <!-- ICON END -->
+        <!-- ICON END -->
+        <!-- ICON END -->
+        <!-- CSS SUANGGI START -->
+        <!-- CSS SUANGGI START -->
+        <!-- CSS SUANGGI START -->
+        <link href='https://arishadisopiyan.github.io/assets/blogger-css/grid-style.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/blogger-css/root.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/blogger-css/screen-style.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/blogger-css/suanggi-style.css' rel='stylesheet'/>
+        <!-- CSS SUANGGI END -->
+        <!-- CSS SUANGGI END -->
+        <!-- CSS SUANGGI END -->
+        <!-- Bootstrap 4.0.0 START -->
+        <!-- Bootstrap 4.0.0 START -->
+        <!-- Bootstrap 4.0.0 START -->
+        <!-- CSS -->
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap-grid.css' rel='stylesheet'/>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap-grid.min.css' rel='stylesheet'/>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap-reboot.css' rel='stylesheet'/>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap-reboot.min.css' rel='stylesheet'/>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css' rel='stylesheet'/>
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet'/>
+        <!-- Suanggi -->
+        <!-- <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-grid.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-grid.min.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-reboot.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-reboot.min.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap.css' rel='stylesheet'/>
+        <link href='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/css/bootstrap-min.css' rel='stylesheet'/> -->
+        <!-- JS -->
+        <script src='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/js/bootstrap.bundle.js'></script>
+        <script src='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/js/bootstrap.bundle.min.js'></script>
+        <script src='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/js/bootstrap.js'></script>
+        <script src='https://arishadisopiyan.github.io/assets/bootstrap-4.0.0/js/bootstrap.min.js'></script>
+        <!-- Bootstrap 4.0.0 END -->
+        <!-- Bootstrap 4.0.0 END -->
+        <!-- Bootstrap 4.0.0 END -->
+        <!-- LINK END -->
+        <!-- LINK END -->
+        <!-- LINK END -->
+        <!-- CSS BLOGGER START -->
+        <!-- CSS BLOGGER START -->
+        <!-- CSS BLOGGER START -->
+        <b:skin>
+            <![CDATA[  
+            /* Custom CSS code goes here... */
+            ]]>
+        </b:skin>
+        <!-- CSS BLOGGER END -->
+        <!-- CSS BLOGGER END -->
+        <!-- CSS BLOGGER END -->
+        <!-- CSS UNTUK LAYOUT/TATA LETAK START -->
+        <!-- CSS UNTUK LAYOUT/TATA LETAK START -->
+        <!-- CSS UNTUK LAYOUT/TATA LETAK START -->
+        <b:if cond='data:view.isLayoutMode'>
+            <b:template-skin>
+                <![CDATA[
+                /* 
+                -----------------------------------------------
+                Blogger Template Style
+                Name		:	Suanggi
+                Version		:	Beta
+                Author		:	Suanggi
+                Author Url	:	https://www.youtube.com/channel/UC_BmdtkEVvQejjsm4qCqL8Q
+                ----------------------------------------------- 
+                */
+                #layout:before {
+                    content: "This template is a property of arishadisopiyan Subscribe https://www.youtube.com/c/Suanggi";
+                    font-size:20px!important;
+                    font-weight:bold;
+                    color: #e47909;
+                }
+                /*------Layout (No Edit)----------*/
+
+                body#layout{
+                    margin:0
+                }
+
+
+                /*------Layout Wrap(basic)----------*/
+                /*------Layout Wrap(basic)----------*/
+                /*------Layout Wrap(basic)----------*/
+                body#layout #content-wrap,
+                #top-bar,#landing-wrap,
+                #landing-info-wrap,
+                #mid-navbar-wrap,
+                #bottom-content-wrap,
+                #footer-copyright-wrap{
+                    height:auto
+                }
+
+                body#layout #content-wrap .container,
+                #top-bar .container,
+                #landing-wrap .container,
+                #landing-info-wrap .container,
+                #mid-navbar-wrap .container,
+                #bottom-content-wrap .container,
+                #footer-copyright-wrap .container{
+                    display:flex
+                }
+
+                body#layout div.logo{float:none;width:auto;height:auto;max-width:none }
+
+                /*------Layout WIDTH AND POSITION/MARGIN----------*/
+                /*------Layout WIDTH AND POSITION/MARGIN----------*/
+                /*------Layout WIDTH AND POSITION/MARGIN----------*/
+                /*------Layout (center)----------*/
+                body#layout #mid-navbar{margin-left:15%;}
+
+                /*------Layout (25%)----------*/
+                body#layout #logo,body#layout #top-bar-nav,body#layout #search,body#layout #top-bar-social, #landing-info1, #landing-info2, #landing-info3, #landing-info4, #sidebar-right{width:25%;height:auto }
+
+                /*------Layout (75%)----------*/
+                body#layout .main-post, #mid-navbar{width:75%;height:auto }
+
+                /*------Layout (100%)----------*/
+                body#layout #landing, #bottom-content, #footer-copyright{width:100%;height:auto }
+
+                /*------Layout H4 TEXT CENTER----------*/
+                body#layout .layout-text-center .section h4{text-align:center!important;color:red!important;}
+
+                /*------Layout (end)----------*/
+                ]]>
+            </b:template-skin>
+        </b:if>
+        <!-- CSS UNTUK LAYOUT/TATA LETAK END -->
+        <!-- CSS UNTUK LAYOUT/TATA LETAK END -->
+        <!-- CSS UNTUK LAYOUT/TATA LETAK END -->
+        <!-- TITLE START -->
+        <!-- TITLE START -->
+        <!-- TITLE START -->
+        <b:if cond='data:blog.pageType == &quot;index&quot;'>
+            <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                <title>
+                    <data:blog.pageName/> |
+                    <data:blog.title/>
+                </title>
+                <b:else/>
+                <title>
+                    <data:blog.pageTitle/> | Aris Hadisopiyan
+                </title>
+            </b:if>
+            <b:else/>
+            <title>
+                <data:blog.pageName/> |
+                <data:blog.title/>
+            </title>
+        </b:if>
+        <!-- TITLE END -->
+        <!-- TITLE END -->
+        <!-- TITLE END -->
+    </head>
+    <body style="word-wrap: break-word;">
+        <header>
+            <nav class='navbar navbar-expand-lg navbar-light bg-dark1 c-white'>
+                <!-- <b:section class='#top-bar-nav' id='#top-bar-nav' name='Top Navbar' maxwidgets='1' showaddelement='yes'> -->
+                    <!-- Tambahkan Widget HTML/Javascript -->
+                    <!-- Masukkan kode di bawah -->
+                    <div class='container-sm'>
+                        <a class='navbar-brand' expr:href='data:blog.homepageUrl'>
+                            <img class='d-inline-block align-top' expr:alt='data:blog.title' height='30px' src='https://arishadisopiyan.github.io/assets/images/logo.webp'/>
+                        </a>
+                        <button aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler bg-white' data-target='#navbarSupportedContent' data-toggle='collapse' type='button'>
+                            <span class='navbar-toggler-icon'/>
+                        </button>
+                        <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+                            <ul class='navbar-nav mr-auto'>
+                                <li class='nav-item active'>
+                                    <a class='nav-link' expr:href='data:blog.homepageUrl'>Home
+                                        <span class='sr-only'>(current)</span>
+                                    </a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a class='nav-link' href='#'>About</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a class='nav-link' href='#'>Product</a>
+                                </li>
+                                <li class='nav-item'>
+                                    <a class='nav-link' href='#'>Blog</a>
+                                </li>
+                            </ul>
+                            <form action='/search' class='form-inline my-2 my-lg-0'>
+                                <input aria-label='Search' class='form-control mr-sm-2' name='q' placeholder='Kata Kunci' type='text'/>
+                                <button class='btn btn-outline-ahst my-2 my-sm-0' type='submit'>Cari</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- <b:widget id='HTML1' locked='false' title='' type='HTML' visible='true'>
+                        <b:widget-settings>
+                            <b:widget-setting name='content'>
+                                &lt;div class=&#39;container-sm&#39;&gt;
+                                &lt;a class=&#39;navbar-brand&#39; expr:href=&#39;data:blog.homepageUrl&#39;&gt;
+                                    &lt;img class=&#39;d-inline-block align-top&#39; expr:alt=&#39;data:blog.title&#39; height=&#39;30&#39; src=&#39;https://arishadisopiyan.github.io/assets/images/logo.webp&#39;/&gt;
+                                &lt;/a&gt;
+                                &lt;button aria-controls=&#39;navbarSupportedContent&#39; aria-expanded=&#39;false&#39; aria-label=&#39;Toggle navigation&#39; class=&#39;navbar-toggler bg-white&#39; data-target=&#39;#navbarSupportedContent&#39; data-toggle=&#39;collapse&#39; type=&#39;button&#39;&gt;
+                                    &lt;span class=&#39;navbar-toggler-icon&#39;/&gt;
+                                &lt;/span&gt;&lt;/button&gt;
+                                &lt;div class=&#39;collapse navbar-collapse&#39; id=&#39;navbarSupportedContent&#39;&gt;
+                                    &lt;ul class=&#39;navbar-nav mr-auto&#39;&gt;
+                                        &lt;li class=&#39;nav-item active&#39;&gt;
+                                            &lt;a class=&#39;nav-link&#39; expr:href=&#39;data:blog.homepageUrl&#39;&gt;Home
+                                                &lt;span class=&#39;sr-only&#39;&gt;(current)&lt;/span&gt;
+                                            &lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class=&#39;nav-item&#39;&gt;
+                                            &lt;a class=&#39;nav-link&#39; href=&#39;#&#39;&gt;About&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class=&#39;nav-item&#39;&gt;
+                                            &lt;a class=&#39;nav-link&#39; href=&#39;#&#39;&gt;Product&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li class=&#39;nav-item&#39;&gt;
+                                            &lt;a class=&#39;nav-link&#39; href=&#39;#&#39;&gt;Blog&lt;/a&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;form action=&#39;/search&#39; class=&#39;form-inline my-2 my-lg-0&#39;&gt;
+                                        &lt;input aria-label=&#39;Search&#39; class=&#39;form-control mr-sm-2&#39; name=&#39;q&#39; placeholder=&#39;Kata Kunci&#39; type=&#39;text&#39;/&gt;
+                                        &lt;button class=&#39;btn btn-outline-ahst my-2 my-sm-0&#39; type=&#39;submit&#39;&gt;Cari&lt;/button&gt;
+                                    &lt;/form&gt;
+                                &lt;/div&gt;
+                                &lt;/div&gt;
+                            </b:widget-setting>
+                        </b:widget-settings>
+                        <b:includable id='main'>
+                            <b:include name='widget-title'/>
+                            <div class='widget-content'>
+                                <data:content/>
+                            </div>
+                        </b:includable>
+                    </b:widget>
+                </b:section> -->
+            </nav>
+        </header>
+        <!-- Navigation + div container class-->
+        <div id="content-wrapper">
+            <div class='container row'>
+                <!-- Main Wrapper -->
+                <div id='main-wrapper'>
+                    <b:section class='main' id='main'>
+                        <b:widget id='Blog1' locked='true' title='Posting Blog' type='Blog' version='2' visible='true'/>
+                    </b:section>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

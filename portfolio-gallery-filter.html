@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!-- Start Required meta tags -->
+        <meta charset="utf-8">
+        <!-- Responsive viewport meta tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- End Required meta tags -->
+      <link rel="icon" href="assets/images/omeans-icon/icon.gif" type="image/gif" sizes="16x16"> 
+<title>GALLERY</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h2{font-weight: bold;text-align: center;}
+h2 a{color: white;text-decoration: none;}
+h2 a:hover {color: #e47909!important;}
+hr{margin-bottom: 10px;}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+
+<h2><a href="https://arishadisopiyan.github.io/">ARIS HADISOPIYAN</a></h2>
+
+       
+<hr>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('avatar')"> Avatar</button>
+  <button class="btn" onclick="filterSelection('vector')"> Vector</button>
+  <button class="btn" onclick="filterSelection('karikatur')"> Karikatur</button>
+  <button class="btn" onclick="filterSelection('logo')"> Logo</button>
+  <button class="btn" onclick="filterSelection('ui')"> UI</button>
+  <button class="btn" onclick="filterSelection('web')"> Website</button>
+  <button class="btn" onclick="filterSelection('3dmodel')"> 3D Model</button>
+  <button class="btn" onclick="filterSelection('game')"> Game</button>
+</div>
+
+<hr>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+
+  <div class="column avatar">
+    <div class="content">
+      <img src="assets/images/gallery/ava_01.webp" alt="Avatar" style="width:100%">
+      <h4>Avatar 01</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column avatar">
+    <div class="content">
+      <img src="assets/images/gallery/ava_02.webp" alt="Avatar" style="width:100%">
+      <h4>Avatar 02</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column avatar">
+    <div class="content">
+      <img src="assets/images/gallery/ava_03.webp" alt="Avatar" style="width:100%">
+      <h4>Avatar 03</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column avatar">
+    <div class="content">
+      <img src="assets/images/gallery/ava_04.webp" alt="Avatar" style="width:100%">
+      <h4>Avatar 04</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column vector">
+    <div class="content">
+    <img src="assets/images/gallery/vec_01.webp" alt="Vector" style="width:100%">
+      <h4>Vector 01</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column vector">
+    <div class="content">
+    <img src="assets/images/gallery/vec_02.webp" alt="Vector" style="width:100%">
+      <h4>Vector 02</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column vector">
+    <div class="content">
+    <img src="assets/images/gallery/vec_03.webp" alt="Vector" style="width:100%">
+      <h4>Vector 03</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column vector">
+    <div class="content">
+    <img src="assets/images/gallery/vec_04.webp" alt="Vector" style="width:100%">
+      <h4>Vector 04</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column vector">
+    <div class="content">
+    <img src="assets/images/gallery/vec_05.webp" alt="Vector" style="width:100%">
+      <h4>Vector 05</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column karikatur">
+    <div class="content">
+    <img src="assets/images/gallery/kari_01.webp" alt="Karikatur" style="width:100%">
+      <h4>Karikatur 01</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column logo">
+    <div class="content">
+      <img src="assets/images/gallery/logo_01.webp" alt="Logo" style="width:100%">
+      <h4>Logo 01</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="assets/images/gallery/logo_02.webp" alt="Logo" style="width:100%">
+      <h4>Logo 02</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="assets/images/gallery/logo_03.webp" alt="Logo" style="width:100%">
+      <h4>Logo 03</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="assets/images/gallery/logo_04.webp" alt="Logo" style="width:100%">
+      <h4>Logo 04</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="assets/images/gallery/logo_05.webp" alt="Logo" style="width:100%">
+      <h4>Logo 05</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column 3dmodel">
+    <div class="content">
+    <img src="assets/images/gallery/avatar_01.webp" alt="3DModel" style="width:100%">
+      <h4>3D Model</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column ui">
+    <div class="content">
+      <img src="assets/images/gallery/avatar_01.webp" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column ui">
+    <div class="content">
+    <img src="assets/images/gallery/avatar_01.webp" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column web">
+    <div class="content">
+    <img src="assets/images/gallery/web_01.webp" alt="Website" style="width:100%">
+      <h4>Website</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column game">
+    <div class="content">
+    <img src="assets/images/gallery/avatar_01.webp" alt="SuanggiSurvivalPapua" style="width:100%">
+      <h4>Suanggi Survival Papua</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

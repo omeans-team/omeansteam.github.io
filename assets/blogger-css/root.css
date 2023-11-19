@@ -1,0 +1,46 @@
+/* 
+-----------------------------------------------
+Blogger Template Style
+Name		:	Suanggi
+Version		:	Beta
+Author		:	Suanggi
+Author Url	:	https://www.youtube.com/channel/UC_BmdtkEVvQejjsm4qCqL8Q
+----------------------------------------------- 
+------Harus ada (No Delete)----------
+-----------------------------------------------
+*/
+
+/* 
+-----------------------------------------------
+Penggunaan root
+-----------------------------------------------
+----------------------------------------------- 
+*/
+
+:root{
+    /* FONT FAMILY */
+    /* FONT FAMILY */
+    /* FONT FAMILY */
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --font-family-bebas-neue: 'Bebas Neue', cursive;
+
+    /* COLOR */
+    /* COLOR */
+    /* COLOR */
+    --suanggi-white: #fff !important;
+    --suanggi-dark1: #333 !important;
+    --suanggi-dark2: #212529 !important;
+    --suanggi-orange: #e47909 !important;
+
+
+    /* TEXT SHADOW */
+    /* TEXT SHADOW */
+    /* TEXT SHADOW */
+    --text-shadow: text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+
+}
+
+
+
+/*-- Body Content CSS --*/
+/*-- Font Style CSS --*/
