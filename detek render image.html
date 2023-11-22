@@ -1,0 +1,16 @@
+<script>
+    function rendered() {
+        //Render complete
+        alert("image rendered");
+    }
+    
+    function startRender() {
+        //Rendering start
+        requestAnimationFrame(rendered);
+    }
+
+    function loaded()  {
+        requestAnimationFrame(startRender);
+    }
+</script>
+<img src="https://mumofthreedevils.files.wordpress.com/2014/05/godzilla.jpg" style="width: 300px; height: 300px" onload="loaded();">
