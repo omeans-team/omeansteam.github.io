@@ -1361,10 +1361,10 @@
 // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
 $(document).ready(function() {
 disableScroll(); 
-setTimeout(function() { 
-    // $("#signInButton").trigger('click');
-    enableScroll();
-}, 5000);
+// setTimeout(function() { 
+//     // $("#signInButton").trigger('click');
+//     enableScroll();
+// }, 5000);
 });
 var keys = {37: 1, 38: 1, 39: 1, 40: 1};
 
@@ -1407,6 +1407,11 @@ function enableScroll() {
   window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
   $('.main-loading').attr('hidden',true);
 }
+$(window).on("load", function(){
+  
+// alert("hai");
+    enableScroll();
+});
   </script>
   <!-- Back To Top Image -->
 
