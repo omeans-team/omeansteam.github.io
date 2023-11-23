@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <style>
+        .main-loading-tiktok {
+            /* display: flex; */
+            /* height: 100vh; */
+            z-index: 10;
+            position: absolute;
+            margin: calc(20% - 10px) calc(50% - 25px);
+        }
+
+        .loading-tiktok {
+            margin: auto;
+            /* display: flex; */
+            align-items: center;
+        }
+
+        .loading-tiktok div {
+            width: 50px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0;
+            position: absolute;
+        }
+
+        .loading-tiktok div:nth-child(1) {
+            /* background: yellow; */
+            background: rgba(255, 0, 0, .5);
+            animation: clockwise 1200ms infinite linear;
+            /* animation: clockwise $animation-duration infinite linear; */
+        }
+
+        .loading-tiktok div:nth-child(2) {
+            mix-blend-mode: soft-light;
+            /* background: red; */
+            background: rgba(255, 255, 0, .8);
+            margin-left: -5px;
+            animation: counter-clockwise 1200ms infinite linear;
+            /* animation: counter-clockwise $animation-duration infinite linear; */
+        }
+
+        @keyframes clockwise {
+            0% {
+                transform: translateX(0);
+                width: 50px;
+            }
+
+            25% {
+                width: 55px;
+            }
+
+            50% {
+                transform: translateX(100%);
+                width: 50px;
+            }
+        }
+
+        @keyframes counter-clockwise {
+            0% {
+                transform: translateX(0);
+            }
+
+            25% {
+                width: 55px;
+            }
+
+            50% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-loading-tiktok">
+        <div class="loading-tiktok">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="assets/css/like-github.css">
   <link rel="stylesheet" href="assets/css/like-brackeys.css">
   <link rel="stylesheet" href="assets/css/other-important.css">
+  <link rel="stylesheet" href="assets/css/loading-block-nine-omeans.css">
   <!-- End CSS -->
 
   <!-- Start JavaScript -->
@@ -108,7 +109,12 @@
     display: inline-block;
     vertical-align: middle;
   }
-
+  .follow ul{
+    margin: 0 !important;
+  }
+  .rounded-2 {
+    border-radius: 6px !important;
+  }
   .h0-mktg,
   .h1-mktg,
   .h2-mktg,
@@ -329,74 +335,6 @@
     box-sizing: border-box;
   }
 
-  .main-loading {
-    /* display: flex; */
-    /* height: 100vh; */
-    z-index: 10;
-    position: absolute;
-    margin: calc(20% - 10px) calc(50% - 25px);
-  }
-
-  .loading {
-    margin: auto;
-    /* display: flex; */
-    align-items: center;
-  }
-
-  .loading div {
-    width: 50px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0;
-    position: absolute;
-  }
-
-  .loading div:nth-child(1) {
-    /* background: yellow; */
-    background: rgba(255, 0, 0, .5);
-    animation: clockwise 1200ms infinite linear;
-    /* animation: clockwise $animation-duration infinite linear; */
-  }
-
-  .loading div:nth-child(2) {
-    mix-blend-mode: soft-light;
-    /* background: red; */
-    background: rgba(255, 255, 0, .8);
-    margin-left: -5px;
-    animation: counter-clockwise 1200ms infinite linear;
-    /* animation: counter-clockwise $animation-duration infinite linear; */
-  }
-
-  @keyframes clockwise {
-    0% {
-      transform: translateX(0);
-      width: 50px;
-    }
-
-    25% {
-      width: 55px;
-    }
-
-    50% {
-      transform: translateX(100%);
-      width: 50px;
-    }
-  }
-
-  @keyframes counter-clockwise {
-    0% {
-      transform: translateX(0);
-    }
-
-    25% {
-      width: 55px;
-    }
-
-    50% {
-      transform: translateX(-100%);
-    }
-  }
 </style>
 
 <body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
@@ -494,12 +432,19 @@
     </div>
   </nav>
 
-  <div class="main-loading">
-    <div class="loading">
-      <div></div>
-      <div></div>
-    </div>
+  <!-- Loading onload window before done load all content -->
+  <div class="loading-omeans">
+    <span class="loading-omeans-nine o-1">a</span>
+    <span class="loading-omeans-nine o-2"></span>
+    <span class="loading-omeans-nine o-3"></span>
+    <span class="loading-omeans-nine o-4"></span>
+    <span class="loading-omeans-nine o-5"></span>
+    <span class="loading-omeans-nine o-6"></span>
+    <span class="loading-omeans-nine o-7"></span>
+    <span class="loading-omeans-nine o-8"></span>
+    <span class="loading-omeans-nine o-9"></span>
   </div>
+  <!-- Loading onload window before done load all content -->
 
   <div class="base-container">
     <div class="lay-base">
@@ -510,6 +455,70 @@
       <p class="f2-mktg color-fg-muted text-normal mb-4">
         A complete portfolio website for development, displaying artwork, and other additional software features.
       </p>
+      <div class="py-4" style="border-top: 1px solid #333">
+        
+        <!-- <div class="row text-center color-text-white"> -->
+        <div class="row text-center color-fg-muted">
+          <div class="col-sm-3 pdb-10">
+                  <!-- <h2 class="f20 lh28 text-mono text-normal no-wrap">65<span class="text-white-fade">+</span> million</h2> -->
+                  <h2 class="f20 lh28 text-mono text-normal no-wrap">65<span class="color-fg-muted">+</span> million</h2>
+                  <h2 class="f20 lh28 text-mono text-normal no-wrap" hidden="">65+ million</h2>
+                  <p class="text-mono color-fg-muted f12">Developers</p>
+          </div>
+          <div class="col-sm-3 pdb-10">
+                  <h2 class="f20 lh28 text-mono text-normal no-wrap">3<span class="color-fg-muted">+</span> million</h2>
+                  <h2 class="f20 lh28 text-mono text-normal no-wrap" hidden="">3+ million</h2>
+                  <p class="text-mono color-fg-muted f12">Organizations</p>
+          </div>
+          <div class="col-sm-3  pdb-10">
+                  <h2 class="f20 lh28 text-mono text-normal no-wrap">200<span class="color-fg-muted">+</span> million</h2>
+                  <h2 class="f20 lh28 text-mono text-normal no-wrap" hidden="">200+ million</h2>
+                  <p class="text-mono color-fg-muted f12">Repositories</p>
+          </div>
+          <div class="col-sm-3  pdb-10">
+                  <h3 class="f20 lh28 text-mono text-normal no-wrap">72%</h3>
+                  <p class="text-mono color-fg-muted f12">Fortune 50</p>
+          </div>
+          <div class="follow mb-8 mx-auto text-center">
+            <div class="d-inline-block border p-4 rounded-2">
+              <span class="d-inline-block f4-mktg">
+                Follow us on
+              </span>
+      
+              <ul class="d-inline-block list-style-none ml-3 lh-condensed-ultra" style="position: relative; top: 2px">
+                <li class="d-inline-block mr-3">
+                  <a href="https://twitter.com/github" class="color-fg-muted" aria-label="GitHub on Twitter" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Twitter&quot;,&quot;label&quot;:&quot;text:twitter&quot;}">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.5 222.3" aria-hidden="true" class="d-block" height="18"><path d="M273.5 26.3a109.77 109.77 0 0 1-32.2 8.8 56.07 56.07 0 0 0 24.7-31 113.39 113.39 0 0 1-35.7 13.6 56.1 56.1 0 0 0-97 38.4 54 54 0 0 0 1.5 12.8A159.68 159.68 0 0 1 19.1 10.3a56.12 56.12 0 0 0 17.4 74.9 56.06 56.06 0 0 1-25.4-7v.7a56.11 56.11 0 0 0 45 55 55.65 55.65 0 0 1-14.8 2 62.39 62.39 0 0 1-10.6-1 56.24 56.24 0 0 0 52.4 39 112.87 112.87 0 0 1-69.7 24 119 119 0 0 1-13.4-.8 158.83 158.83 0 0 0 86 25.2c103.2 0 159.6-85.5 159.6-159.6 0-2.4-.1-4.9-.2-7.3a114.25 114.25 0 0 0 28.1-29.1" fill="currentColor"></path></svg>
+      
+                  </a>
+                </li>
+      
+                <li class="d-inline-block mr-3">
+                  <a href="https://www.facebook.com/GitHub" aria-label="GitHub on Facebook" class="color-fg-muted" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Facebook&quot;,&quot;label&quot;:&quot;text:facebook&quot;}">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.3 15.4" aria-hidden="true" class="d-block" height="18"><path d="M14.5 0H.8a.88.88 0 0 0-.8.9v13.6a.88.88 0 0 0 .8.9h7.3v-6h-2V7.1h2V5.4a2.87 2.87 0 0 1 2.5-3.1h.5a10.87 10.87 0 0 1 1.8.1v2.1h-1.3c-1 0-1.1.5-1.1 1.1v1.5h2.3l-.3 2.3h-2v5.9h3.9a.88.88 0 0 0 .9-.8V.8a.86.86 0 0 0-.8-.8z" fill="currentColor"></path></svg>
+      
+                  </a>
+                </li>
+      
+                <li class="d-inline-block mr-3">
+                  <a href="https://www.youtube.com/github" aria-label="GitHub on YouTube" class="color-fg-muted" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to YouTube&quot;,&quot;label&quot;:&quot;text:youtube&quot;}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" class="d-block">
+      <path d="M15.6656 3.7488C15.4816 3.0608 14.9392 2.5184 14.2512 2.3344C13.0032 2 8 2 8 2C8 2 2.9968 2 1.7488 2.3344C1.0608 2.5184 0.5184 3.0608 0.3344 3.7488C-2.38419e-08 4.9968 0 8.4 0 8.4C0 8.4 -2.38419e-08 11.8032 0.3344 13.0512C0.5184 13.7392 1.0608 14.2816 1.7488 14.4656C2.9968 14.8 8 14.8 8 14.8C8 14.8 13.0032 14.8 14.2512 14.4656C14.94 14.2816 15.4816 13.7392 15.6656 13.0512C16 11.8032 16 8.4 16 8.4C16 8.4 16 4.9968 15.6656 3.7488ZM6.4 10.4784V6.3216C6.4 6.0136 6.7336 5.8216 7 5.9752L10.6 8.0536C10.8664 8.2072 10.8664 8.5928 10.6 8.7464L7 10.8248C6.7336 10.9792 6.4 10.7864 6.4 10.4784Z" fill="currentColor"></path>
+      </svg>
+      
+                  </a>
+                </li>
+      
+                <li class="d-inline-block mr-3">
+                  <a href="https://www.linkedin.com/company/github" aria-label="GitHub on LinkedIn" class="color-fg-muted" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Linkedin&quot;,&quot;label&quot;:&quot;text:linkedin&quot;}">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 18" aria-hidden="true" class="d-block" height="18"><path d="M3.94 2A2 2 0 1 1 2 0a2 2 0 0 1 1.94 2zM4 5.48H0V18h4zm6.32 0H6.34V18h3.94v-6.57c0-3.66 4.77-4 4.77 0V18H19v-7.93c0-6.17-7.06-5.94-8.72-2.91z" fill="currentColor"></path></svg>
+      
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 
@@ -1405,7 +1414,8 @@ function enableScroll() {
   window.removeEventListener(wheelEvent, preventDefault, wheelOpt); 
   window.removeEventListener('touchmove', preventDefault, wheelOpt);
   window.removeEventListener('keydown', preventDefaultForScrollKeys, false);
-  $('.main-loading').attr('hidden',true);
+  // $('.main-loading-tiktok').attr('hidden',true);
+  // $('.loading-omeans').attr('hidden',true);
 }
 $(window).on("load", function(){
   
