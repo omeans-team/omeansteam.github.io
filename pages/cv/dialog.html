@@ -1,0 +1,86 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+  <title>jQuery UI Dialog - Animation</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind", 
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } );
+  </script>
+</head>
+<body>
+
+<div id="dialog" title="Basic dialog">
+  <form action="" method="post"> 
+    Name  :- <input type="text" name="name" value="">
+    Email :-<input type="email" name="email" value="">
+<div id="test" class="loader"></div>
+
+Submit:-<input id="dialog2" type="submit" onclick="myfuncation();" name="submit" value="save">
+    
+  </form>
+</div>
+
+<button id="opener">Open Dialog</button>
+<div id="dialog-message"></div>
+</body>
+</html>
+<script type="text/javascript">
+$( "#test" ).hide();
+
+function myfuncation()
+  {
+alert("hai");
+      // Here is your ajax request to db related work.
+$( "#test" ).show();
+      //var ajaxresponce = "Sucessfully Insert Form";
+      //$('#dialog-message').html(ajaxresponce);
+     // $( "#dialog-message" ).dialog();
+
+  }
+</script>
+

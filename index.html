@@ -40,6 +40,8 @@
   <script src="assets/js/btn-back-to-top.js"></script>
   <script type="module" src="assets/js/app.js"></script>
   </script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <!-- End JavaScript -->
 
   <!-- Start Client Logo Carousel -->
@@ -58,10 +60,37 @@
   <!-- End Client Logo Carousel -->
   <!-- End Client Logo Carousel -->
 
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
   <title>ARIS HADISOPIYAN</title>
 
+  <script>
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind", 
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } );
+  </script>
 </head>
 <style>
+  #dialog{
+    padding: 0 !important;
+  }
+  .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable {
+    width: 1080px !important;
+  }
   .base-container {
     line-height: 100vh;
     height: 100vh;
@@ -382,15 +411,19 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Game
+              Career
             </a>
             <!-- Dropdown Menu -->
             <div class="dropdown-menu c-3" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Suanggi Survival Papua</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <!-- <a class="dropdown-item" id="dialog_cv" target="_blank" href="pages/cv">Curriculum Vitae</a> -->
+              <a style="cursor: pointer;" class="dropdown-item" id="opener" target="pages/cv">Curriculum Vitae</a>
+              <!-- <a class="dropdown-item" id="" target="_blank" href="pages/cv/dialog.html">Contoh dialog</a> -->
+              <!-- <a class="dropdown-item" href="#">Biography</a> -->
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCc-wxj8LR7n83Y_-6fGwnKA"
-                target="_blank">Gameplay</a>
+              <!-- <a class="dropdown-item" href="pages/cv"
+                target="_blank">Download CV</a> -->
+              <a class="dropdown-item" href="uploads/pdf/ARIS_HADISOPIYAN-CV-WEB_DEVELOPER.pdf" target="_blank"
+                type="application/octet-stream" download="ARIS_HADISOPIYAN-CV-WEB_DEVELOPER">Download CV</a>
             </div>
           </li>
 
@@ -955,7 +988,13 @@
 
         <ul class="list-style-none d-flex flex-wrap color-fg-muted">
           <li class="mr-3">
-            © 2023 GitHub, Inc.
+            <div class="credit-link">
+              ©
+              <script type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script>
+              <a id="change" class="change" href="https://omeansteam.github.io/" title="omeansteam"> Omeans Team</a>
+            </div>
           </li>
 
           <li class="mr-3">
@@ -989,10 +1028,13 @@
   </footer>
 
 
+  <div id="dialog" title="Curriculum Vitae">
+    <center><a href="uploads/pdf/ARIS_HADISOPIYAN-CV-WEB_DEVELOPER.pdf" download><img style="width: 100px;" src="assets/images/button/pdf1.png" /><br>Download</a></center>
+	  <iframe src="pages/cv/" width="100%" height="800"></iframe>
+</div>
+  
 
   <!-- <footer class="bg-brackeys">
-
-
     <div class="container-xl p-responsive">
       <div class="d-flex flex-wrap py-5 mb-5">
         <div class="col-12 col-lg-4 mb-5">
@@ -1222,7 +1264,7 @@
       <ul style="width:50%" class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
         <li class="mr-3">
           <div class="credit-link">
-            <!-- Copyright  -->
+             //Copyright
             ©
             <script type="text/javascript">
               document.write(new Date().getFullYear());
@@ -1237,6 +1279,10 @@
       </ul>
     </div>
   </footer> -->
+
+
+  <!-- <button id="clickMe" onclick="showIframeModalExample();">Click to Show Iframe Modal</button> -->
+
   <!-- Start Client Logo Carousel -->
   <!-- Start Client Logo Carousel -->
   <!-- Start Client Logo Carousel -->
