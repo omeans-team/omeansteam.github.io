@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <style>
+        @-webkit-keyframes cloud {
+            0% {
+                left: -140px;
+            }
+
+            100% {
+                left: 100%;
+            }
+        }
+
+        @keyframes cloud {
+            0% {
+                left: -140px;
+            }
+
+            100% {
+                left: 100%;
+            }
+        }
+
+        .base-container .cloud {
+            position: absolute;
+            width: 70px;
+            height: 24px;
+            background: linear-gradient(to bottom, #f2f9fe 5%, #d6f0fd 100%);
+            border-radius: 20px;
+            top: 200px;
+            z-index: 1;
+            -webkit-animation: cloud 60s linear infinite;
+            animation: cloud 60s linear infinite;
+            vertical-align: middle;
+        }
+
+        .base-container .cloud.small {
+            top: 170px;
+            transform: scale(0.6);
+            -webkit-animation-delay: -1.5s;
+            animation-delay: -1.5s;
+            -webkit-animation-duration: 80s;
+            animation-duration: 80s;
+        }
+
+        .base-container .cloud.big {
+            top: 220px;
+            transform: scale(2);
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+            -webkit-animation-duration: 40s;
+            animation-duration: 40s;
+        }
+
+        .base-container .cloud:before,
+        .base-container .cloud:after {
+            position: absolute;
+            content: "";
+            background: inherit;
+            z-index: 1;
+        }
+
+        .base-container .cloud:before {
+            width: 36px;
+            height: 36px;
+            top: -18px;
+            right: 10px;
+            border-radius: 40px;
+        }
+
+        .base-container .cloud:after {
+            width: 20px;
+            height: 20px;
+            top: -10px;
+            left: 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="base-container">
+        <div class="cloud"></div>
+        <div class="cloud small"></div>
+        <div class="cloud big"></div>
+    </div>
+</body>
+
+</html>
