@@ -5,6 +5,15 @@
 .list-style-none .icon-codepen a:hover{
     color: #1F2328 !important;
 }
+.list-style-none .icon-facebook a:hover{
+    color: blue !important;
+}
+.list-style-none .icon-youtube a:hover{
+    color: red !important;
+}
+.list-style-none .icon-linkedin a:hover{
+    color: blue !important;
+}
 
 .flex-justify-between {
 justify-content: space-between !important;
@@ -185,6 +194,11 @@ footer a:hover {
 .navbar-atas {
   position: sticky !important;
   z-index: 999;
+}
+
+.navbar-bawah {
+  z-index: 1000;
+  box-shadow: 0px 0px 5px rgba(196, 196, 196, 0.75);
 }
 
 .scroll-sequence {
