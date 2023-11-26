@@ -33,11 +33,7 @@ justify-content: space-between !important;
   line-height: 90vh;
   height: 90vh;
   /* height: 100vh; */
-  /* background: #fff; */
-  width: 100%;
-  height: auto;
-  background: linear-gradient(to bottom, #BE4405, #F6C60C);
-  /* background-image: url('../images/landing/FOV CIREMAI-01.png'); */
+  background: #fff;
   font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   word-break: keep-all;
   text-align: center;
@@ -45,15 +41,15 @@ justify-content: space-between !important;
 
 .lay-base {
   line-height: 1.5;
-  display: inline-block;
+  /* display: inline-block; */
   vertical-align: middle;
   z-index: 2;
   /* position: relative; */
 }
-/* .h1-mktg.mb-3, .f2-mktg.color-fg-muted.text-normal.mb-4, .border-lst.py-4 {
+.h1-mktg.mb-3, .f2-mktg.color-fg-muted.text-normal.mb-4, .border-lst.py-4 {
   z-index: 3;
   position: relative;
-} */
+}
 .follow ul{
   margin: 0 !important;
 }

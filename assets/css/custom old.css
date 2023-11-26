@@ -33,11 +33,7 @@ justify-content: space-between !important;
   line-height: 90vh;
   height: 90vh;
   /* height: 100vh; */
-  /* background: #fff; */
-  width: 100%;
-  height: auto;
-  background: linear-gradient(to bottom, #BE4405, #F6C60C);
-  /* background-image: url('../images/landing/FOV CIREMAI-01.png'); */
+  background: #fff;
   font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   word-break: keep-all;
   text-align: center;
