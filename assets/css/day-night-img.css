@@ -12,7 +12,7 @@ html {
 }
 
 /* The Section Body... Set it to max size of screen */
-section {
+.base-container section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -22,7 +22,7 @@ section {
 }
 
 /* To blend section color with water color */
-section::before {
+.base-container section::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -34,7 +34,7 @@ section::before {
 }
 
 /* Make all images absolute and cover whole screen */
-section img {
+.base-container section img {
     position: absolute;
     top: 0;
     left: 0;
@@ -45,14 +45,14 @@ section img {
 }
 
 /* Properites for th text on top section  */
-section #text span {
+.base-container section #text span {
     font-size: 0.2em;
     letter-spacing: 2px;
     font-weight: 400;
     color: white;
 }
 
-section #text {
+.base-container section #text {
     position: absolute;
     color: #004660;
     font-size: 10vw;
