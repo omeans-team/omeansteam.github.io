@@ -8,13 +8,14 @@
         content="Explore the interactive Halloween Party project, showcasing responsive design, animations, and web development techniques. Immerse yourself in the spooky ambiance of Halloween.">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/logo_02.png">
 
     <!-- Page Title -->
     <title>Parallax Scrolling Website</title>
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="day-night.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -30,7 +31,7 @@
     <!-- <meta property="og:url" content="https://parallax-website-by-vineet.netlify.app/"> -->
 </head>
 
-<body id="theme-style" class="day">
+<body id="theme-style" class="night">
     <!-- This is the header/ Nav Bar -->
     <header id="header">
         <a href="#" class="logo">Parallax</a>
@@ -46,6 +47,13 @@
         </ul>
     </header>
 
+    <!-- <div id="clouds"  class="wallpaper">
+        <div class="wallpaper cloud x1"></div>
+        <div class="wallpaper cloud x2"></div>
+        <div class="wallpaper cloud x3"></div>
+        <div class="wallpaper cloud x4"></div>
+        <div class="wallpaper cloud x5"></div>
+    </div> -->
     <!-- This is the Top Section (Above Water) -->
     <!-- <section>
         <img src="images/land/sky.png" id="sky" class="wallpaper">
@@ -63,18 +71,43 @@
     </section> -->
     <div class="satu">
         <section>
-            <img src="images/ciremai/day/group-obj/bg-01.png" id="sky">
-            <img src="images/land/sun.png" id="sun">
-            <img src="images/ciremai/day/group-obj/mt-01.png" id="mountains">
+        <!-- <img src="images/land/sky.png" id="sky" class="wallpaper"> -->
+        <img src="images/ciremai/night/group-obj/bg-03.png" id="sky">
+            <!-- <img src="images/land/sun.png" id="sun"> -->
+            <!-- <img src="images/ciremai/moon-02.png" id="sunmoon"> -->
+            <img src="images/ciremai/moon-02.png" id="moon">
+            <img src="images/ciremai/sun.png" id="sun">
+            <!-- <img src="images/ciremai/night/group-obj/moon-light.png" id="sun"> -->
+            <img src="images/ciremai/night/group-obj/bg-03-01.png" id="sky02">
+            <img src="images/ciremai/night/group-obj/mt-01.png" id="mountains">
             <img src="images/land/cloud.png" id="cloud">
+            <img src="images/land/cloud.png" id="cloud2">
+            <img src="images/land/cloud.png" id="cloud3">
+            <img src="images/land/cloud.png" id="cloud4">
+            <img src="images/land/cloud.png" id="cloud5">
             <h2 id="text"><span>"Embrace the Thrill of"</span><br>Exploration</h2>
-            <img src="images/ciremai/day/group-obj/forest-01.png" id="forest">
+            <img src="images/ciremai/night/group-obj/forest-01.png" id="forest">
             <img src="images/land/bird1.png" id="bird1">
             <img src="images/land/bird2.png" id="bird2">
             <a href="#sec" id="explore">Explore</a>
             <!-- <img src="images/land/rocks.png" id="rocks"> -->
             <!-- <img src="images/land/splash.png" id="splash"> -->
             <!-- <img src="images/land/water.png" id="water"> -->
+      <!-- <div class="sun"></div>
+      <div class="moon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="stars">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> -->
         </section>
     </div>
     <div class="dua">
@@ -257,29 +290,31 @@
 
         $("#switch").click(function () {
             if ($("#theme-style").hasClass("night")) {
+                $("#theme-style").removeClass("night");
                 $("#theme-style").addClass("day");
 
                 $("#sky").attr("src","images/ciremai/day/group-obj/bg-01.png");
+                $("#sky02").attr("src","images/ciremai/day/group-obj/bg-01-01.png");
                 $("#mountains").attr("src","images/ciremai/day/group-obj/mt-01.png");
                 $("#forest").attr("src","images/ciremai/day/group-obj/forest-01.png");
                 // $(".sec").st
+                // $("#sunmoon").attr("src","images/ciremai/sun.png");
 
-                $("#theme-style").removeClass("night");
-                $("#switch").removeClass("switched");
+                $("#switch").addClass("switched");
 
             } else {
                 if ($("#theme-style").hasClass("day")) {
                     $("#theme-style").removeClass("day");
                 }
-
-                
                 $("#theme-style").addClass("night");
-
-                $("#sky").attr("src","images/ciremai/night/group-obj/bg-01.png");
+                
+                // $("#sunmoon").attr("src","images/ciremai/moon-02.png");
+                $("#sky").attr("src","images/ciremai/night/group-obj/bg-03.png");
+                $("#sky02").attr("src","images/ciremai/night/group-obj/bg-03-01.png");
                 $("#mountains").attr("src","images/ciremai/night/group-obj/mt-01.png");
                 $("#forest").attr("src","images/ciremai/night/group-obj/forest-01.png");
 
-                $("#switch").addClass("switched");
+                $("#switch").removeClass("switched");
             }
         });
     </script>
