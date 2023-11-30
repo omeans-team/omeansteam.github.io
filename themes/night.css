@@ -1,0 +1,30 @@
+body .night{
+    background-color: #080b19;
+}
+.night header{
+    color: white;
+    /* warna github */
+    background-color: #010409;
+}
+.night header a{
+    color: white;
+}
+.night main{
+    background-color: blueviolet;
+}
+.night footer{
+    background-color: brown;
+}
+
+.night .main-content{
+    background-color: #010409;
+}
+.night .sidebar-left{
+    background-color: #161b22;
+}
+.night .content{
+    background-color: #161b22;
+}
+.night .sidebar-right{
+    background-color: #161b22;
+}
