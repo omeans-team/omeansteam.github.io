@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Start Required meta tags -->
+  <meta charset="utf-8">
+  <!-- Responsive viewport meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- End Required meta tags -->
+
+  <!-- Start CSS -->
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="assets/css/ts.css"> -->
+  <!-- <link rel="stylesheet" href="../assets/css/my-style.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/remove-scrollbar.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/bg-color.css"> -->
+  <!-- End CSS -->
+
+  <!-- Start Github Style -->
+  <!-- <link rel="stylesheet" href="assets/github-style/frameworks.css">
+  <link rel="stylesheet" href="assets/github-style/behaviors.css">
+  <link rel="stylesheet" href="assets/github-style/github.css">
+  <link rel="stylesheet" href="assets/github-style/site.css">
+  <link rel="stylesheet" href="assets/github-style/home.css"> -->
+
+  <!-- <link rel="stylesheet" href="assets/github-style/videocontrols.css"> -->
+  <!-- End Github Style -->
+
+  <!-- Start JavaScript -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script> -->
+  <!-- <script src="../assets/js/btn-back-to-top.js"></script> -->
+
+  <!-- End JavaScript -->
+
+  <title>BS4</title>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    html,
+    body {
+        overflow-x: hidden;
+        /* To prevent Horizontal scroll */
+    }
+    
+    html {
+        scroll-behavior: smooth;
+        /* To scrolling animation */
+    }
+    
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      /*untuk font dan icon*/
+      /*
+    font-size: 50px;
+    */
+      /*untuk font dan icon*/
+      height: 50px;
+      width: 50px;
+      border: none;
+      outline: none;
+      /*untuk font dan icon*/
+      /*
+    color: white;
+    */
+      /*untuk font dan icon*/
+      cursor: pointer;
+      border-radius: 4px;
+      background-color: aqua;
+    }
+
+    #header {
+      position: fixed;
+      /* position: absolute; */
+      /* To Overlap with background */
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 1.5em 5em;
+      display: flex;
+      /* To get elements in row */
+      justify-content: space-between;
+      align-items: center;
+      z-index: 99999;
+      /* Header shld be above everything */
+    }
+
+    #header .logo {
+      color: #002431;
+      font-weight: 800;
+      font-size: 2.5em;
+      text-decoration: none;
+      /* To prevent Underline */
+    }
+
+    #header ul {
+      display: flex;
+      /* To get elements in row */
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #header ul li {
+      list-style: none;
+      /* To Remove dot */
+      margin: 0px 10px;
+    }
+
+    #header ul li a {
+      text-decoration: none;
+      /* To prevent Underline */
+      padding: 6px 15px;
+      color: #003549;
+      border-radius: 20px;
+    }
+
+    #header ul li a:hover,
+    #header ul li a.active {
+      background: #003549;
+      color: white;
+    }
+
+    @media screen and (max-width: 650px) {
+
+      #header {
+        padding: 1em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #header ul {
+        padding: 0.5em;
+      }
+    }
+  </style>
+</head>
+
+<body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
+
+  <!-- Back To Top Image -->
+  <!-- Back To Top Image -->
+  <!-- <img src="assets/images/svg/arrow-up-circle-fill-omeans-6-color.svg" onclick="topFunction()" id="myBtn" class="rounded-circle change-img"> -->
+  <!-- Back To Top Icon -->
+  <!-- <i onclick="topFunction()" id="myBtn" class="bi bi-arrow-up-circle-fill"></i> -->
+  <!-- Back To Top Font -->
+  <header id="header">
+    <a href="#" class="logo">Parallax</a>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#sec">About</a></li>
+      <li><a href="#footer">Contact</a></li>
+      <li>
+        <div id="switch">
+          <div id="circle"></div>
+        </div>
+      </li>
+    </ul>
+  </header>
+  <div id="ssdsdsd" class="container-fluid" style="background-color: rgb(218, 82, 37); height: 9000px;"></div>
+  <a onclick="topFunction()" id="myBtn">Top</a>
+
+
+
+  <div id="toptop" class="container-fluid" style="background-color: rgb(33, 104, 180); height: 9000px;"></div>
+  
+  <div class="container-fluid" style="background-color: rgb(70, 180, 33); height: 9000px;"></div>
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    var header = document.getElementById("header");
+    var toptop = document.getElementById("toptop");
+    var height = document.getElementById('ssdsdsd').scrollHeight;
+    var top = document.getElementById('ssdsdsd').offsetTop; // posisi top = 0
+
+    var height2 = document.getElementById('toptop').scrollHeight;
+    var top2 = document.getElementById('toptop').offsetTop; // posisi top = 0
+
+    // var detect = (height) + (height2);
+    var detect = top2;
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      // if (document.getElementById("toptop").scrollTop > 926 || document.getElementById("toptop").scrollTop == 926) {
+      if (document.body.scrollTop > detect || document.documentElement.scrollTop > detect) {
+        mybutton.style.display = "block";
+        header.style.position = "absolute";
+      } else {
+        mybutton.style.display = "none";
+        header.style.position = "fixed";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+
+</html>
