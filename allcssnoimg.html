@@ -63,8 +63,8 @@
 
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
-  <link rel="stylesheet" href="assets/css/custom.css">
-  <link rel="stylesheet" href="assets/css/day-night.css">
+  <link rel="stylesheet" href="assets/css copy/custom.css">
+  <link rel="stylesheet" href="assets/css copy/day-night.css">
   <title>ARIS HADISOPIYAN</title>
 
   <script>
@@ -90,7 +90,7 @@
 <style>
 </style>
 
-<body id="theme-style" class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
+<body id="theme-style" class="logged-out env-production page-responsive header-overlay day" style="word-wrap: break-word;">
 
   <!-- Back To Top Image -->
   <!-- Back To Top Image -->
@@ -194,9 +194,6 @@
           <button class="btn btn-outline-ahst my-2 my-sm-0 f16" type="submit">Search</button>
         </form>
       </div>
-      <div id="switch">
-        <div id="circle"></div>
-      </div>
     </div>
   </nav>
 
@@ -216,6 +213,9 @@
 
   <div class="base-container">
     <div class="lay-base container">
+
+      
+
       <h1 class="h1-mktg mb-3">
         Let's introduce from here
       </h1>
@@ -223,21 +223,27 @@
       <p class="f2-mktg color-fg-muted text-normal mb-4">
         A complete portfolio website for development, displaying artwork, and other additional software features.
       </p>
-      <div class="border-lst py-4" style="border-top: 1px solid #333">
+      <!-- <div class="border-lst" style="border-top: 1px solid #333"> -->
 
         <!-- <div class="row text-center color-text-white"> -->
-        <div class="row text-center color-fg-muted">
-          <div class="col-sm-3 pdb-10">
-            <h2 class="f20 lh28 text-mono text-normal no-wrap">Personal Information</h2>
+        <div id="switch-theme" class="row text-center color-fg-muted">
+          <div id="switch-day" class="col-sm-2 pdb-10">
+            <h2 class="f20 lh28 text-mono text-normal no-wrap active">Day</h2>
           </div>
-          <div class="col-sm-3 pdb-10">
-            <h2 class="f20 lh28 text-mono text-normal no-wrap">Education</h2>
+          <div id="switch-night"  class="col-sm-2 pdb-10">
+            <h2 class="f20 lh28 text-mono text-normal no-wrap">Night</h2>
           </div>
-          <div class="col-sm-3  pdb-10">
-            <h2 class="f20 lh28 text-mono text-normal no-wrap">Work Experience</h2>
+          <div id="switch-sunset"  class="col-sm-2  pdb-10">
+            <h2 class="f20 lh28 text-mono text-normal no-wrap">Sunset</h2>
           </div>
-          <div class="col-sm-3  pdb-10">
-            <h3 class="f20 lh28 text-mono text-normal no-wrap">Contact Information</h3>
+          <div id="switch-sunrise"  class="col-sm-2  pdb-10">
+            <h2 class="f20 lh28 text-mono text-normal no-wrap">Sunrise</h2>
+          </div>
+          <div id="switch-halloween"  class="col-sm-2  pdb-10">
+            <h2 class="f20 lh28 text-mono text-normal no-wrap">Halloween</h2>
+          </div>
+          <div id="switch-winter"  class="col-sm-2  pdb-10">
+            <h2 class="f20 lh28 text-mono text-normal no-wrap">Winter</h2>
           </div>
           <div class="follow mb-8 mx-auto text-center">
             <div class="d-inline-block border p-4 rounded-2">
@@ -308,9 +314,12 @@
             </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
 
 
+
+
+    </div>
 
       <div class="sun"></div>
       <div class="moon">
@@ -327,31 +336,6 @@
         <div></div>
         <div></div>
       </div>
-
-    </div>
-
-  </div>
-
-  <div class="show-prefab">
-    <div class="container scroll-container">
-      <section class="scroll-sequence__container apple-container">
-        <div class="scroll-sequence apple-sequence"></div>
-        <div class="scroll-sequence__content">
-          <div class="speak">
-            <h1>Scroll Sequence</h1>
-            <p>Just start scrolling</p>
-          </div>
-          <div class="speak">
-            <h1>This is Apple's image sequence</h1>
-            <p>All copyrights to them. Please don't sue me!</p>
-          </div>
-          <div class="speak">
-            <h1>The Text Animation</h1>
-            <p>Is created with Scroll-out.js. Go check it out!</p>
-          </div>
-        </div>
-      </section>
-    </div>
   </div>
 
   <nav class="navbar-bawah navbar navbar-expand-lg navbar-light bg-white sticky-top f16 lh24 text-mono header-limiter">
@@ -390,99 +374,6 @@
 
 
 
-    <!-- Start Client Logo Carousel -->
-    <!-- Start Client Logo Carousel -->
-    <!-- Start Client Logo Carousel -->
-    <!-- <div id="carouselExample1" class="carousel slide z-depth-1-half" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="assets/images/slide/black.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/slide/red.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/slide/green.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/slide/blue.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets/images/slide/white.png" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div> -->
-    <!-- End Client Logo Carousel -->
-    <!-- End Client Logo Carousel -->
-    <!-- End Client Logo Carousel -->
-
-    <!-- <div class="position-relativez-1 pdt-10 bg-brackeys">
-            <div class="container">
-              <div class="py-4" style="border-top: 1px solid rgba(255,255,255,0.3)">
-            <div class="row text-center color-text-white">
-            <div class="col-sm-3 pdb-10">
-                    <h2 class="f20 lh28 text-mono text-normal no-wrap">65<span class="text-white-fade">+</span> million</h2>
-                    <h2 class="f20 lh28 text-mono text-normal no-wrap" hidden="">65+ million</h2>
-                    <p class="text-mono text-white-fade f12">Developers</p>
-            </div>
-            <div class="col-sm-3 pdb-10">
-                    <h2 class="f20 lh28 text-mono text-normal no-wrap">3<span class="text-white-fade">+</span> million</h2>
-                    <h2 class="f20 lh28 text-mono text-normal no-wrap" hidden="">3+ million</h2>
-                    <p class="text-mono text-white-fade f12">Organizations</p>
-            </div>
-            <div class="col-sm-3  pdb-10">
-                    <h2 class="f20 lh28 text-mono text-normal no-wrap">200<span class="text-white-fade">+</span> million</h2>
-                    <h2 class="f20 lh28 text-mono text-normal no-wrap" hidden="">200+ million</h2>
-                    <p class="text-mono text-white-fade f12">Repositories</p>
-            </div>
-            <div class="col-sm-3  pdb-10">
-                    <h3 class="f20 lh28 text-mono text-normal no-wrap">72%</h3>
-                    <p class="text-mono text-white-fade f12">Fortune 50</p>
-            </div>
-          </div></div>
-        </div>
-          </div> 
-          <svg class="position-absolute width-full z-1" xmlns="http://www.w3.org/2000/svg" fill="none" preserveAspectRatio="none" viewBox="0 0 1680 40" style="bottom: -1px;">
-              <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path>
-          </svg>
-      </div> -->
-
-    <!-- End Style Github Top -->
-    <!-- End Style Github Top -->
-    <!-- End Style Github Top -->
-
-
-
-    <!-- Start Client Logo Carousel -->
-    <!-- Start Client Logo Carousel -->
-    <!-- Start Client Logo Carousel -->
-    <!-- <div class="slider-logo">
-          <div class="container mrg-t32">
-          <h2 class="text-center fw-bold">OUR TOOLS</h2>
-          <section class="logo-carousel slider mrg-t32" data-arrows="true">
-              <div class="slide"><img src="assets/images/tools/adobe-premiere-pro-icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Adobe_Illustrator_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Adobe_Photoshop_CC_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Adobe_XD_CC_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Blender_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Corel_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Maya_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Sketchup_icon.webp"></div>
-              <div class="slide"><img src="assets/images/tools/Unity_icon.webp"></div>
-            </section>
-          </div>
-      </div> -->
-    <!-- End Client Logo Carousel -->
-    <!-- End Client Logo Carousel -->
-    <!-- End Client Logo Carousel -->
 
 
 
@@ -522,27 +413,8 @@
           class="position-relative z-1 mx-auto box-shadow-default-mktg wide-block pdt-10 pt-5 pt-md-0 overflow-hidden js-section">
         </div>
         <div id="home-community" class="container-xl p-responsive mx-auto js-section"></div>
-        <!-- <div class="bg-color-brackeys pb-11 pb-md-12 position-relative">
-          <svg class="position-absolute top-0 width-full mt-n1" xmlns="http://www.w3.org/2000/svg" fill="none"
-            preserveAspectRatio="none" viewBox="0 0 1680 40" style="transform: scaleY(-1);">
-            <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path>
-          </svg>
-        </div> -->
       </div>
     </div>
-    <!-- <div class="bg-brackeys" style="height: 680px;">
-    </div> -->
-    <!-- End Style Github Bottom -->
-    <!-- End Style Github Bottom -->
-    <!-- End Style Github Bottom -->
-
-
-    <!-- <div class="cr bg-brackeys text-center z-1">
-      Copyright 2016-
-      <script type="text/javascript">document.write(new Date().getFullYear());</script>
-      by
-      <a id="change" class="change" href="https://omeansteam.github.io/" target="_blank">Omeans</a>
-    </div> -->
 
 
 
@@ -891,265 +763,6 @@
     <iframe src="pages/cv/" width="100%" height="800"></iframe>
   </div>
 
-
-  <!-- <footer class="bg-brackeys">
-    <div class="container-xl p-responsive">
-      <div class="d-flex flex-wrap py-5 mb-5">
-        <div class="col-12 col-lg-4 mb-5">
-          <a href="/"
-            data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to home&quot;,&quot;label&quot;:&quot;text:home&quot;}"
-            class="color-fg-default d-inline-block" aria-label="Go to GitHub homepage">
-            <svg height="30" aria-hidden="true" viewBox="0 0 45 16" version="1.1" width="84" data-view-component="true"
-              class="octicon octicon-logo-github footer-logo-mktg width-auto d-block">
-              <path
-                d="M8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17Zm35.85 2.33c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88ZM27.68 2.43c.09 0 .17.08.17.17v11.11c0 .09-.08.17-.17.17h-2.13c-.09 0-.17-.08-.17-.17l.02-4.75h-3.31v4.75c0 .09-.08.17-.17.17h-2.13c-.08 0-.17-.08-.17-.17V2.6c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v4.09h3.31V2.6c0-.09.08-.17.17-.17Zm8.26 3.64c.11 0 .19.08.19.17l-.02 7.47c0 .09-.06.17-.17.17H34.6c-.07 0-.14-.04-.16-.09-.03-.06-.08-.45-.08-.45s-1.13.77-2.52.77c-1.69 0-2.92-.55-2.92-2.75V6.25c0-.09.08-.17.17-.17h2.14c.09 0 .17.08.17.17V11c0 .75.22 1.09.97 1.09s1.3-.39 1.3-.39V6.26c0-.11.06-.19.17-.19Zm-17.406 5.971h.005a.177.177 0 0 1 .141.179v1.5c0 .07-.03.14-.09.16-.1.05-.74.22-1.27.22-1.16 0-2.86-.25-2.86-2.69V8.13h-1.11c-.09 0-.17-.08-.17-.19V6.58c0-.08.05-.15.13-.17.07-.01 1.16-.28 1.16-.28V3.96c0-.08.05-.13.14-.13h2.16c.09 0 .14.05.14.13v2.11h1.59c.08 0 .16.08.16.17v1.7c0 .11-.07.19-.16.19h-1.59v3.131c0 .47.27.83 1.05.83.247 0 .481-.049.574-.05ZM12.24 6.06c.09 0 .17.08.17.17v7.37c0 .18-.05.27-.25.27h-1.92c-.17 0-.3-.07-.3-.27V6.26c0-.11.08-.2.17-.2Zm29.99 3.78c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25ZM11.19 2.68c.75 0 1.36.61 1.36 1.38 0 .77-.61 1.38-1.36 1.38-.77 0-1.38-.61-1.38-1.38 0-.77.61-1.38 1.38-1.38Zm7.34 9.35v.001l.01.01h-.001l-.005-.001v.001c-.009-.001-.015-.011-.024-.011Z">
-              </path>
-            </svg>
-          </a>
-
-          <div>
-            <h2 class="h5 mt-4" id="subscribe-to-newsletter">Subscribe to our developer newsletter</h2>
-            <p class="f14 color-fg-muted mb-3">Get tips, technical guides, and best practices. Once a month. Right in
-              your inbox.</p>
-            <a class="btn-mktg mb-4 btn-muted-mktg"
-              data-analytics-event="{&quot;category&quot;:&quot;Subscribe&quot;,&quot;action&quot;:&quot;click to Subscribe&quot;,&quot;label&quot;:&quot;ref_cta:Subscribe;&quot;}"
-              href="https://resources.github.com/newsletter/">
-              Subscribe
-
-
-            </a>
-          </div>
-
-        </div>
-
-        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-lg-0 pl-lg-4">
-          <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
-            Product
-          </h2>
-
-          <ul class="list-style-none color-fg-muted f14">
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to features&quot;,&quot;label&quot;:&quot;text:features&quot;}"
-                href="/features">Features</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to enterprise&quot;,&quot;label&quot;:&quot;text:enterprise&quot;}"
-                href="/enterprise">Enterprise</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to copilot&quot;,&quot;label&quot;:&quot;text:copilot&quot;}"
-                href="/features/copilot">Copilot</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}"
-                href="/security">Security</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to pricing&quot;,&quot;label&quot;:&quot;text:pricing&quot;}"
-                href="/pricing">Pricing</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to team&quot;,&quot;label&quot;:&quot;text:team&quot;}"
-                href="/team">Team</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to resources&quot;,&quot;label&quot;:&quot;text:resources&quot;}"
-                href="https://resources.github.com">Resources</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to roadmap&quot;,&quot;label&quot;:&quot;text:roadmap&quot;}"
-                href="https://github.com/github/roadmap">Roadmap</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to compare github&quot;,&quot;label&quot;:&quot;text:compare github&quot;}"
-                href="https://resources.github.com/devops/tools/compare/">Compare GitHub</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
-          <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
-            Platform
-          </h2>
-
-          <ul class="list-style-none f14">
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}"
-                href="https://docs.github.com/get-started/exploring-integrations/about-building-integrations">Developer
-                API</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to partner&quot;,&quot;label&quot;:&quot;text:partner&quot;}"
-                href="https://partner.github.com">Partners</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to electron&quot;,&quot;label&quot;:&quot;text:electron&quot;}"
-                href="https://www.electronjs.org">Electron</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to desktop&quot;,&quot;label&quot;:&quot;text:desktop&quot;}"
-                href="https://desktop.github.com/">GitHub Desktop</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
-          <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
-            Support
-          </h2>
-
-          <ul class="list-style-none f14">
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to help&quot;,&quot;label&quot;:&quot;text:Docs&quot;}"
-                href="https://docs.github.com">Docs</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to community&quot;,&quot;label&quot;:&quot;text:community&quot;}"
-                href="https://github.community">Community Forum</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to professional services&quot;,&quot;label&quot;:&quot;text:professional services&quot;}"
-                href="https://services.github.com/">Professional Services</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to premium support&quot;,&quot;label&quot;:&quot;text:premium support&quot;}"
-                href="/premium-support">Premium Support</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to skills&quot;,&quot;label&quot;:&quot;text:skills&quot;}"
-                href="https://skills.github.com/">Skills</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}"
-                href="https://www.githubstatus.com/">Status</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}"
-                href="https://support.github.com?tags=dotcom-footer">Contact GitHub</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-sm-3 col-lg-2 mb-6 mb-md-2 pr-3 pr-md-0 pl-md-4">
-          <h2 class="h5 mb-3 text-mono color-fg-muted text-normal">
-            Company
-          </h2>
-
-          <ul class="list-style-none f14">
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to about&quot;,&quot;label&quot;:&quot;text:about&quot;}"
-                href="https://github.com/about">About</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to customer stories&quot;,&quot;label&quot;:&quot;text:customer stories&quot;}"
-                href="/customer-stories?type=enterprise">Customer stories</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}"
-                href="https://github.blog">Blog</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to the readme project&quot;,&quot;label&quot;:&quot;text:the readme project&quot;}"
-                href="/readme">The ReadME Project</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to careers&quot;,&quot;label&quot;:&quot;text:careers&quot;}"
-                href="/about/careers">Careers</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to press&quot;,&quot;label&quot;:&quot;text:press&quot;}"
-                href="/about/press">Press</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to diversity&quot;,&quot;label&quot;:&quot;text:Inclusion&quot;}"
-                href="/about/diversity">Inclusion</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to social impact&quot;,&quot;label&quot;:&quot;text:social impact&quot;}"
-                href="https://socialimpact.github.com/">Social Impact</a>
-            </li>
-            <li class="lh-condensed mb-3">
-              <a class="Link--secondary"
-                data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to shop&quot;,&quot;label&quot;:&quot;text:shop&quot;}"
-                href="https://shop.github.com">Shop</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container-xl p-responsive f12 py-4 d-sm-flex flex-justify-between flex-row-reverse flex-items-center">
-      <ul style="width:50%; float: right;"
-        class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
-        <li class="mr-3">X (Tweeter)</li>
-        <li class="mr-3">Facebook</li>
-        <li class="mr-3">Linkedin</li>
-        <li class="mr-3">Youtube</li>
-        <li class="mr-3">Instagram</li>
-        <li class="mr-3">Twitch</li>
-        <li class="mr-3">Tiktok</li>
-        <li class="mr-3">Github</li>
-      </ul>
-      <ul style="width:50%" class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
-        <li class="mr-3">
-          <div class="credit-link">
-             //Copyright
-            ©
-            <script type="text/javascript">
-              document.write(new Date().getFullYear());
-            </script>
-            <a id="change" class="change" href="https://omeansteam.github.io/" title="omeansteam"> Omeans Team</a>
-          </div>
-        </li>
-        <li class="mr-3">Terms</li>
-        <li class="mr-3">Privacy (date)</li>
-        <li class="mr-3">Sitemap</li>
-        <li class="mr-3">FAQ</li>
-      </ul>
-    </div>
-  </footer> -->
-
-
-  <!-- <button id="clickMe" onclick="showIframeModalExample();">Click to Show Iframe Modal</button> -->
-
-  <!-- Start Client Logo Carousel -->
-  <!-- Start Client Logo Carousel -->
-  <!-- Start Client Logo Carousel -->
-  <!-- Agar ukuran logo kecil dan slide jalan -->
-  <script src="assets/js/slick-slider.js"></script>
-  <!-- End Client Logo Carousel -->
-  <!-- End Client Logo Carousel -->
-  <!-- End Client Logo Carousel -->
-  <!-- Back To Top Image -->
   <script>
     //Get the button
     // var mybutton = document.getElementById("myBtn");
@@ -1235,15 +848,242 @@
     });
 
 
-    $("#switch").click(function () {
-      if ($("#theme-style").hasClass("night")) {
+    
+    $("#switch-day").click(function () {
+      if ($("#theme-style").hasClass("day")) {
+
+        // $("#theme-style").removeClass("day");
         $("#theme-style").removeClass("night");
-        $("#switch").removeClass("switched");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+        
+        // $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+      else {
+        $("#theme-style").addClass("day");
+
+        // $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+
+        $("#switch-day").find("h2").addClass("active");
+
+        // $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+    });
+
+    $("#switch-night").click(function () {
+      if ($("#theme-style").hasClass("night")) {
+        
+        $("#theme-style").removeClass("day");
+        // $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+        
+        $("#switch-day").find("h2").removeClass("active");
+        // $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
       }
       else {
         $("#theme-style").addClass("night");
-        $("#switch").addClass("switched");
 
+        $("#theme-style").removeClass("day");
+        // $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+
+
+
+        $("#switch-night").find("h2").addClass("active");
+
+        $("#switch-day").find("h2").removeClass("active");
+        // $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+    });
+    
+    $("#switch-sunset").click(function () {
+      if ($("#theme-style").hasClass("sunset")) {
+        
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        // $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+        
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        // $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+      else {
+        $("#theme-style").addClass("sunset");
+
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        // $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+
+
+
+        $("#switch-sunset").find("h2").addClass("active");
+
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        // $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+    });
+    
+    $("#switch-sunrise").click(function () {
+      if ($("#theme-style").hasClass("sunrise")) {
+        
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        // $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+        
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        // $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+      else {
+        $("#theme-style").addClass("sunrise");
+
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        // $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+
+
+
+        $("#switch-sunrise").find("h2").addClass("active");
+
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        // $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+    });
+    
+    $("#switch-halloween").click(function () {
+      if ($("#theme-style").hasClass("halloween")) {
+        
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        // $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+        
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        // $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+      else {
+        $("#theme-style").addClass("halloween");
+
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        // $("#theme-style").removeClass("halloween");
+        $("#theme-style").removeClass("winter");
+
+
+
+        $("#switch-halloween").find("h2").addClass("active");
+
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        // $("#switch-halloween").find("h2").removeClass("active");
+        $("#switch-winter").find("h2").removeClass("active");
+      }
+    });
+    
+    $("#switch-winter").click(function () {
+      if ($("#theme-style").hasClass("winter")) {
+        
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        // $("#theme-style").removeClass("winter");
+        
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        // $("#switch-winter").find("h2").removeClass("active");
+      }
+      else {
+        $("#theme-style").addClass("winter");
+
+        $("#theme-style").removeClass("day");
+        $("#theme-style").removeClass("night");
+        $("#theme-style").removeClass("sunset");
+        $("#theme-style").removeClass("sunrise");
+        $("#theme-style").removeClass("halloween");
+        // $("#theme-style").removeClass("winter");
+
+
+
+        $("#switch-winter").find("h2").addClass("active");
+
+        $("#switch-day").find("h2").removeClass("active");
+        $("#switch-night").find("h2").removeClass("active");
+        $("#switch-sunset").find("h2").removeClass("active");
+        $("#switch-sunrise").find("h2").removeClass("active");
+        $("#switch-halloween").find("h2").removeClass("active");
+        // $("#switch-winter").find("h2").removeClass("active");
       }
     });
   </script>
