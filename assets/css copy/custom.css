@@ -29,13 +29,13 @@ justify-content: space-between !important;
   top: 200px !important;
 } */
 .base-container {
-  /* line-height: 100vh; */
   line-height: 100vh;
+  /* line-height: 100vh; */
+  /* height: 100%; */
   height: 100vh;
-  /* height: 100vh; */
   background: #fff;
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
   /* background: linear-gradient(to bottom, #BE4405, #F6C60C); */
   /* background-image: url('../images/landing/FOV CIREMAI-01.png'); */
   font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -47,13 +47,10 @@ justify-content: space-between !important;
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
-  z-index: 2;
+  z-index: 100;
   position: relative;
 }
-/* .h1-mktg.mb-3, .f2-mktg.color-fg-muted.text-normal.mb-4, .border-lst.py-4 {
-  z-index: 3;
-  position: relative;
-} */
+
 .follow ul{
   margin: 0 !important;
 }
@@ -69,46 +66,6 @@ justify-content: space-between !important;
   font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-feature-settings: unset;
   color: #1F2328 !important;
-}
-
-@media (min-width: 1012px) {
-  .h1-mktg {
-    font-size: 72px !important;
-    line-height: 76px !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .h1-mktg {
-    font-size: 56px !important;
-    line-height: 60px !important;
-    letter-spacing: -0.03em !important;
-  }
-}
-
-.h1-mktg {
-  font-size: 72px;
-  line-height: 76px;
-  font-weight: 800;
-}
-
-.h0-mktg,
-.h1-mktg,
-.h2-mktg,
-.h3-mktg,
-.h4-mktg,
-.h5-mktg,
-.h6-mktg {
-  font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-feature-settings: "ss02" on, "ss01" on;
-  font-weight: 700 !important;
-  letter-spacing: -0.01em !important;
-}
-
-.f2-mktg {
-  color: #656d76;
-  font-size: 24px;
-  line-height: 32px;
 }
 
 .mb-3 {
@@ -285,3 +242,4 @@ body {
 * {
   box-sizing: border-box;
 }
+
