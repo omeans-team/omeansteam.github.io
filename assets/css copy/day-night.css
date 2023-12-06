@@ -1,17 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-.night .base-container {
-    background: #080d17;
-    color: #e9e5d5;
-}
 
+.night .base-container,
+.night .base-container h1,
 .night #intro-text {
     color: #e9e5d5;
 }
-
+.base-container h1{
+    -webkit-transition: all 1.1s ease-in-out;
+    transition: all 1.1s ease-in-out;
+}
 .base-container {
     position: relative;
-    background: linear-gradient(to bottom, #BE4405, #F6C60C);
+    /* background: linear-gradient(to bottom, #BE4405, #F6C60C); */
+    background: linear-gradient(to bottom, #2446AF, #60A2FE,#BDD7FD,#BDD8FF,#fff);
     overflow: hidden;
     padding: 64px 0px;
     margin: 0 auto;
@@ -25,14 +27,35 @@
 }
 
 .night .base-container {
-    background: linear-gradient(to bottom, #111936, #285A7B);
+    /* background: linear-gradient(to bottom, #111936, #285A7B); */
+    background: linear-gradient(to bottom, #01154F, #052070,#2497C2,#EAEBED);
     border-color: #e9e5d5;
 }
+.sunrise .base-container {
+    background: 
+    /* linear-gradient(to bottom, #839CE0, #fafa3b); */
+    linear-gradient(to bottom, #759F9D,#E7BA80,#F9AE5E,#F9B55E, #faca3b, #fe3030);
+}
+.sunset .base-container {
+    background: linear-gradient(to bottom, #24284C, #795E2C,#F4891A,#F48A1B,#F2891D);
+}
 
+.halloween .base-container {
+    background: linear-gradient(to bottom, #01031D, #060D2B, #235882, #2e89d2);
+}
+.winter .base-container {
+    background: linear-gradient(to bottom, #60A2FE,#BDD7FD,#D9E7FD,#fff,#fff);
+}
 .sun {
     /* margin-top: 20px; */
-    background: #F2EF88;
-    box-shadow: 0 0 20px rgba(242, 239, 136, 0.4);
+    /* background: #F2EF88;
+    box-shadow: 0 0 20px rgba(242, 239, 136, 0.4); */
+    background: #fff;
+    /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.4); */
+    box-shadow: 
+    0 0 30px 15px #fff,
+    0 0 60px 30px #fff,
+    0 0 90px 45px #fff;
     /* width: 30%; */
     /* width: auto; */
     /* height: 30%; */
@@ -40,24 +63,219 @@
     height: 500px; */
     /* width: 25vw;
     height: 25vw; */
-    width: 15vw;
-    height: 15vw;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
     position: absolute;
     left: 60%;
-    top: 2.5vw;
+    top: 3.5vw;
     /* left: calc(50% - (12.5vw)); */
     /* top: calc(50% - (12.5vw)); */
 
     /* vertical-align: middle;
     position: relative;
     display: inline-block; */
-    -webkit-animation: pulse 5s ease infinite alternate;
-    animation: pulse 5s ease infinite alternate;
+    /* -webkit-animation: pulse 5s ease infinite alternate;
+    animation: pulse 5s ease infinite alternate; */
     -webkit-transition: all 1.1s 0.4s ease;
     transition: all 1.1s 0.4s ease;
     z-index: 1;
 }
+
+.night .sun,
+.winter .sun {
+    /* top: 150%; */
+    /* left: 20%; */
+
+    margin-top: 100vh;
+    -webkit-transition: all 1.1s 0s ease;
+    transition: all 1.1s 0s ease;
+}
+
+
+/* box-shadow:  */
+/* inset 0 0 50px #fff,      inner white */
+/* inset 20px 0 80px #f0f,   inner left magenta short */
+/* inset -20px 0 80px #0ff,  inner right cyan short */
+/* inset 20px 0 300px #f0f,  inner left magenta broad */
+/* inset -20px 0 300px #0ff, inner right cyan broad */
+/* 0 0 50px #fff,            outer white */
+/* -10px 0 80px #f0f,        outer left magenta */
+/* 10px 0 80px #0ff;         outer right cyan */
+
+.sunrise .sun {
+    background: #ffffac;
+    box-shadow: 
+    0 0 30px 15px #fafb84,
+    0 0 60px 30px #f8fb49,
+    0 0 90px 45px #fafa3b;
+    
+    
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25vw;
+    /* -webkit-animation: pulse 5s ease infinite alternate;
+    animation: pulse 5s ease infinite alternate; */
+    -webkit-transition: all 1.1s 0.4s ease;
+    transition: all 1.1s 0.4s ease;
+    z-index: 1;
+}
+
+.sunset .sun {
+    background: #fffffc;
+    box-shadow: inset 
+    0 0 30px 15px #f5ce0b,
+    0 0 30px 15px #f5ce0b, 0 0 60px 30px #f46b0b, 0 0 90px 45px #f56007;
+    
+    
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 75%;
+    top: 25vw;
+    /* -webkit-animation: pulse 5s ease infinite alternate;
+    animation: pulse 5s ease infinite alternate; */
+    -webkit-transition: all 1.1s 0.4s ease;
+    transition: all 1.1s 0.4s ease;
+    z-index: 1;
+}
+
+.pumpkin {
+    position: relative;
+    display: block;
+    width: 160px;
+    height: 120px;
+  }
+  .stem {
+    width: 20px;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -24px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 28px solid #683329;
+    z-index: 5;
+  }
+  .layer {
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 120px;
+    background-color: #fa7614;
+    border-right: 10px solid #f26419;
+    border-left: 10px solid #fa850d;
+  }
+  .layer:nth-child(1) {
+    width: 180px;
+    border-radius: 60px;
+  }
+  .layer:nth-child(2) {
+    width: 120px;
+    border-radius: 100px/120px;
+  }
+  .layer:nth-child(3) {
+    width: 40px;
+    border-radius: 60px/120px;
+  }
+  .face {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+  }
+  .face .eye {
+    position: absolute;
+    top: 20%;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-bottom: 24px solid #25213e;
+  }
+  .face .eye:before {
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #3d3668;
+  }
+  .face .eye.left {
+    left: 12%;
+  }
+  .face .eye.left:before {
+    right: -14px;
+  }
+  .face .eye.right {
+    right: 12%;
+  }
+  .face .eye.right:before {
+    left: -14px;
+  }
+  .face .nose {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    width: 0;
+    height: 0;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 16px solid #25213e;
+  }
+  .face .nose:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -16px;
+    left: -4px;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 8px solid #3d3668;
+  }
+  .face .mouth {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    width: 120px;
+    height: 40px;
+    background-color: #3d3668;
+    border: 6px solid #25213e;
+    border-top: 2px solid #25213e;
+    border-radius: 0 0 60px 60px/0 0 40px 40px;
+  }
+  .face .mouth:before,
+  .face .mouth:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    width: 16px;
+    height: 10px;
+    background-color: #fa7614;
+    border-radius: 0 0 2px 2px;
+  }
+  .face .mouth:before {
+    left: 6%;
+    box-shadow: 2px 2px 0 #25213e;
+  }
+  .face .mouth:after {
+    right: 6%;
+    box-shadow: -2px 2px 0 #25213e;
+  }
+
 
 @keyframes pulse {
     0% {
@@ -87,20 +305,15 @@
     }
 }
 
-.night .sun {
-    /* top: 150%; */
-    /* left: 20%; */
-
-    margin-top: 100vh;
-    -webkit-transition: all 1.1s 0s ease;
-    transition: all 1.1s 0s ease;
-}
 
 .moon {
     position: absolute;
     margin-top: 20px;
     background: #d9d8d0;
-    box-shadow: inset -10px 2px 0 0px #899098;
+    box-shadow: inset -10px 2px 0 0px #899098,
+    inset 
+    0 0 30px 5px #899098,
+    0 0 30px 5px #899098;
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -265,7 +478,9 @@
 }
 
 .night .water {
-    background: repeating-radial-gradient(ellipse farthest-corner at center -400%, #7fa1bb, #1d425a) repeat scroll 0 0 #1d425a;
+    
+    /* background: repeating-radial-gradient(ellipse farthest-corner at center -400%, #7fa1bb, #1d425a) repeat scroll 0 0 #1d425a; */
+    background: repeating-radial-gradient(ellipse farthest-corner at center -400%, #7fa1bb, #071C3F) repeat scroll 0 0 #2B4160;
 }
 
 .forest {
@@ -330,6 +545,32 @@
     z-index: 3;
 }
 
+.mountain-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* bottom: 20%; */
+    top: 0;
+    text-align: left;
+    z-index: 3;
+}
+
+.mountain2-shadow svg {
+    position: absolute;
+    width: 200%;
+    /* height: 20%; */
+    top: 79.89%;
+    left: -25%;
+    /* text-align: left; */
+    z-index: 3;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    opacity: 30%;
+}
+
+.night .mountain2-shadow svg {
+    opacity: 10%;
+}
 .base-container p {
     text-align: center;
 }

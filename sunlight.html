@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1f2022;
+  height: 400px;
+  width: 400px;
+}
+
+.circ {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+
+.sky {
+  background: #008fd4;
+  height: 200px;
+  width: 200px;
+  animation: skybright 5s cubic-bezier(0.42, 0, 0.58, 0.7) infinite;
+}
+
+.cloud {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1435559/cloud.png);
+  width: 75px;
+  height: 48px;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  animation: cloudmoves 5s cubic-bezier(0.42, 0, 0.58, 0.7) infinite;
+}
+
+.sun {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -45px;
+  bottom: 30px;
+  border-radius: 50%;
+  background: yellow;
+  z-index: 3;
+  transform-origin: 145px;
+  transform: rotate(20deg);
+  animation: sungoessleep 5s ease-in-out infinite;
+}
+
+.pyramidR {
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  background: #c3b991;
+  width: 55px;
+  height: 60px;
+  clip-path: polygon(0 0, 30% 100%, 100% 100%);
+  z-index: 2;
+  animation: rightanimate 5s cubic-bezier(0.42, 0, 0.58, 0.7) infinite;
+}
+
+.pyramidL {
+  position: absolute;
+  bottom: 65px;
+  left: 25%;
+  background: #fff2bd;
+  width: 100px;
+  height: 60px;
+  clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+  animation: leftanimate 5s cubic-bezier(0.42, 0, 0.58, 0.7) infinite;
+}
+
+.shadow {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  height: 65px;
+  clip-path: polygon(25% 0%, 100% 90%, 78% 0%);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 25;
+  transform-origin: 50% 0;
+  animation: shadowanimate 5s cubic-bezier(0.42, 0, 0.58, 0.7) infinite;
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  background: #c9bb80;
+  animation: sanddarken 5s cubic-bezier(0.42, 0, 0.58, 0.7) infinite;
+}
+
+@keyframes sungoessleep {
+  0% {
+    transform: rotate(20deg);
+  }
+  30% {
+    transform: rotate(70deg);
+  }
+  100% {
+    transform: rotate(160deg);
+  }
+}
+@keyframes cloudmoves {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 250px;
+  }
+}
+@keyframes leftanimate {
+  0% {
+    background: #e3dab6;
+  }
+  50% {
+    background: #fff2bd;
+  }
+  75% {
+    background: #c3b991;
+  }
+  100% {
+    background: #1f2022;
+  }
+}
+@keyframes rightanimate {
+  0% {
+    background: #aba37f;
+  }
+  50% {
+    background: #c3b991;
+  }
+  75% {
+    background: #e3dab6;
+  }
+  100% {
+    background: #474333;
+  }
+}
+@keyframes shadowanimate {
+  0% {
+    transform: scaleY(0.1);
+  }
+  30% {
+    transform: scaleY(1);
+    clip-path: polygon(25% 0%, 100% 90%, 78% 0%);
+  }
+  60% {
+    clip-path: polygon(25% 0%, 60% 30%, 78% 0%);
+  }
+  80% {
+    transform: scaleY(0.9);
+    clip-path: polygon(25% 0%, 0% 90%, 78% 0%);
+  }
+  100% {
+    transform: scaleY(0.1);
+    clip-path: polygon(25% 0%, 0% 10%, 78% 0%);
+  }
+}
+@keyframes skybright {
+  0% {
+    background: #1f2022;
+  }
+  25% {
+    background: #55b9ea;
+  }
+  75% {
+    background: #008fd4;
+  }
+  100% {
+    background: #1f2022;
+  }
+}
+@keyframes sanddarken {
+  0% {
+    background: #1f2022;
+  }
+  35% {
+    background: #c9bb80;
+  }
+  75% {
+    background: #c9bb80;
+  }
+  100% {
+    background: #1f2022;
+  }
+}
+        </style>
+    </head>
+    <body>
+        <div class="center">
+          <div class="circ">
+            <div class="sky"></div>
+            <div class="cloud"></div>
+            <div class="sun"></div>
+            <div class="pyramidL"></div>
+            <div class="pyramidR"></div>
+            <div class="shadow"></div>
+            <div class="ground"></div>
+          </div>
+        </div>
+      </body>
+</html>

@@ -230,7 +230,7 @@
   </nav>
 
   <!-- Loading onload window before done load all content -->
-  <!-- <div class="loading-omeans">
+  <div class="loading-omeans">
     <span class="loading-omeans-nine o-1"></span>
     <span class="loading-omeans-nine o-2"></span>
     <span class="loading-omeans-nine o-3"></span>
@@ -240,7 +240,7 @@
     <span class="loading-omeans-nine o-7"></span>
     <span class="loading-omeans-nine o-8"></span>
     <span class="loading-omeans-nine o-9"></span>
-  </div> -->
+  </div>
   <!-- Loading onload window before done load all content -->
 
   <div class="base-container">
@@ -265,11 +265,11 @@
         <div id="switch-night" class="col-sm-2 pdb-10">
           <h2 class="f20 lh28 text-mono text-normal no-wrap">Night</h2>
         </div>
-        <div id="switch-sunset" class="col-sm-2  pdb-10">
-          <h2 class="f20 lh28 text-mono text-normal no-wrap">Sunset</h2>
-        </div>
         <div id="switch-sunrise" class="col-sm-2  pdb-10">
           <h2 class="f20 lh28 text-mono text-normal no-wrap">Sunrise</h2>
+        </div>
+        <div id="switch-sunset" class="col-sm-2  pdb-10">
+          <h2 class="f20 lh28 text-mono text-normal no-wrap">Sunset</h2>
         </div>
         <div id="switch-halloween" class="col-sm-2  pdb-10">
           <h2 class="f20 lh28 text-mono text-normal no-wrap">Halloween</h2>
@@ -359,7 +359,8 @@
           <defs>
             <style>
               .uuid-d3164238-b4e8-435e-8f79-44a595549153 {
-                fill: #271229;
+                <!-- fill: #271229; -->
+                fill: #000b0e;
                 stroke-width: 0px;
               }
             </style>
@@ -378,7 +379,8 @@
           <defs>
             <style>
               .uuid-d3164238-b4e8-435e-8f79-44a595549153 {
-                fill: #271229;
+                <!-- fill: #271229; -->
+                fill: #000b0e;
                 stroke-width: 0px;
               }
             </style>
@@ -407,19 +409,24 @@
               }
 
               .day .uuid-02ad4dd5-6369-4b75-a6d3-4a5ff8357451 {
-                fill: #052825;
+                <!-- fill: #052825; -->
+                fill: url(#gunung5);
               }
               .day .uuid-0c18c07a-89f2-44fa-a5a4-9324a8f038d6 {
-                fill: #0c4244;
+                <!-- fill: #0c4244; -->
+                fill: url(#gunung4);
               }
               .day .uuid-f8395307-4d15-4689-9d8d-07f2f4de8dd0 {
-                fill: #0a6a6e;
+                <!-- fill: #0a6a6e; -->
+                fill: url(#gunung3);
               }
               .day .uuid-c7ea6068-8563-4d3b-9d2c-38d456cb3893 {
-                fill: #0e787c;
+                fill: url(#gunung2);
+                <!-- fill: #0e787c; -->
               }
               .day .uuid-efc729e8-ffb3-45be-8c49-b99bec0b4999 {
-                fill: #65c9d4;
+                <!-- fill: #65c9d4; -->
+                fill: url(#uuid-8d43f62d-1f6f-47e9-9763-7ba1213e6a11);
               }
               
 
@@ -441,6 +448,43 @@
               }
 
             </style>
+            
+            <!-- style gradient -->
+              <linearGradient id="uuid-8d43f62d-1f6f-47e9-9763-7ba1213e6a11" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#2e2f7c"/>
+                <stop offset=".2" stop-color="#1576a3"/>
+                <stop offset=".46" stop-color="#1b679a"/>
+                <stop offset=".74" stop-color="#234d8c"/>
+                <stop offset="1" stop-color="#65c9d4"/>
+            </linearGradient>
+            <linearGradient id="gunung2" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#2e2f7c"/>
+              <stop offset=".1" stop-color="#2e2f7c"/>
+              <stop offset=".46" stop-color="#0e787c"/>
+              <stop offset=".74" stop-color="#0e787c"/>
+              <stop offset="1" stop-color="#0e787c"/>
+          </linearGradient>
+          <linearGradient id="gunung3" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#2e2f7c"/>
+            <stop offset=".1" stop-color="#2e2f7c"/>
+            <stop offset=".46" stop-color="#0a6a6e"/>
+            <stop offset=".74" stop-color="#0a6a6e"/>
+            <stop offset="1" stop-color="#0a6a6e"/>
+        </linearGradient>
+        <linearGradient id="gunung4" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#2e2f7c"/>
+          <stop offset=".1" stop-color="#2e2f7c"/>
+          <stop offset=".46" stop-color="#0c4244"/>
+          <stop offset=".74" stop-color="#0c4244"/>
+          <stop offset="1" stop-color="#0c4244"/>
+      </linearGradient>
+      <linearGradient id="gunung5" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#2e2f7c"/>
+        <stop offset=".1" stop-color="#2e2f7c"/>
+        <stop offset=".46" stop-color="#052825"/>
+        <stop offset=".74" stop-color="#052825"/>
+        <stop offset="1" stop-color="#052825"/>
+    </linearGradient>
           </defs>
           <g id="uuid-60d092d6-7408-4292-a111-057a48fd1707">
             <path class="uuid-efc729e8-ffb3-45be-8c49-b99bec0b4999"
@@ -458,8 +502,137 @@
       </div>
     </div>
 
+    <div class="mountain-shadow">
+      <div class="mountain2-shadow">
+        <svg id="uuid-de1679de-e81e-461b-aa22-303fdd9456e6" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 2046.54 255.2">
+          <defs>
+            <style>
+
+              .uuid-efc729e8-ffb3-45be-8c49-b99bec0b4999,
+              .uuid-02ad4dd5-6369-4b75-a6d3-4a5ff8357451,
+              .uuid-f8395307-4d15-4689-9d8d-07f2f4de8dd0,
+              .uuid-0c18c07a-89f2-44fa-a5a4-9324a8f038d6,
+              .uuid-c7ea6068-8563-4d3b-9d2c-38d456cb3893 {
+                stroke-width: 0px;
+              }
+
+              .day .uuid-02ad4dd5-6369-4b75-a6d3-4a5ff8357451 {
+                <!-- fill: #052825; -->
+                fill: url(#gunung5);
+              }
+              .day .uuid-0c18c07a-89f2-44fa-a5a4-9324a8f038d6 {
+                <!-- fill: #0c4244; -->
+                fill: url(#gunung4);
+              }
+              .day .uuid-f8395307-4d15-4689-9d8d-07f2f4de8dd0 {
+                <!-- fill: #0a6a6e; -->
+                fill: url(#gunung3);
+              }
+              .day .uuid-c7ea6068-8563-4d3b-9d2c-38d456cb3893 {
+                fill: url(#gunung2);
+                <!-- fill: #0e787c; -->
+              }
+              .day .uuid-efc729e8-ffb3-45be-8c49-b99bec0b4999 {
+                <!-- fill: #65c9d4; -->
+                fill: url(#uuid-8d43f62d-1f6f-47e9-9763-7ba1213e6a11);
+              }
+              
+
+
+              .night .uuid-02ad4dd5-6369-4b75-a6d3-4a5ff8357451 {
+                fill: #4E0F2F;
+              }
+              .night .uuid-0c18c07a-89f2-44fa-a5a4-9324a8f038d6 {
+                fill: #7E1333;
+              }
+              .night .uuid-f8395307-4d15-4689-9d8d-07f2f4de8dd0 {
+                fill: #CD273F;
+              }
+              .night .uuid-c7ea6068-8563-4d3b-9d2c-38d456cb3893 {
+                fill: #EF4238;
+              }
+              .night .uuid-efc729e8-ffb3-45be-8c49-b99bec0b4999 {
+                fill: #F47F4C;
+              }
+
+            </style>
+            
+            <!-- style gradient -->
+              <linearGradient id="uuid-8d43f62d-1f6f-47e9-9763-7ba1213e6a11" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#2e2f7c"/>
+                <stop offset=".2" stop-color="#1576a3"/>
+                <stop offset=".46" stop-color="#1b679a"/>
+                <stop offset=".74" stop-color="#234d8c"/>
+                <stop offset="1" stop-color="#65c9d4"/>
+            </linearGradient>
+            <linearGradient id="gunung2" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#2e2f7c"/>
+              <stop offset=".1" stop-color="#2e2f7c"/>
+              <stop offset=".46" stop-color="#0e787c"/>
+              <stop offset=".74" stop-color="#0e787c"/>
+              <stop offset="1" stop-color="#0e787c"/>
+          </linearGradient>
+          <linearGradient id="gunung3" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#2e2f7c"/>
+            <stop offset=".1" stop-color="#2e2f7c"/>
+            <stop offset=".46" stop-color="#0a6a6e"/>
+            <stop offset=".74" stop-color="#0a6a6e"/>
+            <stop offset="1" stop-color="#0a6a6e"/>
+        </linearGradient>
+        <linearGradient id="gunung4" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#2e2f7c"/>
+          <stop offset=".1" stop-color="#2e2f7c"/>
+          <stop offset=".46" stop-color="#0c4244"/>
+          <stop offset=".74" stop-color="#0c4244"/>
+          <stop offset="1" stop-color="#0c4244"/>
+      </linearGradient>
+      <linearGradient id="gunung5" x1="1022.23" y1="0" x2="1035.71" y2="528.47" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#2e2f7c"/>
+        <stop offset=".1" stop-color="#2e2f7c"/>
+        <stop offset=".46" stop-color="#052825"/>
+        <stop offset=".74" stop-color="#052825"/>
+        <stop offset="1" stop-color="#052825"/>
+    </linearGradient>
+          </defs>
+          <g id="uuid-60d092d6-7408-4292-a111-057a48fd1707">
+            <path class="uuid-efc729e8-ffb3-45be-8c49-b99bec0b4999"
+              d="m0,255.2s321.74-109.02,338.58-112.56,44.32-8.86,61.6-19.5c17.28-10.64,35.9-19.06,46.53-17.73s33.68-1.77,44.76-7.53c11.08-5.76,23.78-9.6,28.51-9.6s15.07,1.77,17.14,0,4.73-4.43,7.39-3.84,9.75-.3,12.11-1.48,3.84-3.25,9.16-2.66,23.04-6.5,25.41-8.27,7.98-3.55,12.7-2.36,55.54-21.57,64.41-25.11c8.86-3.55,12.41-5.02,24.52-10.34,12.11-5.32,30.14-15.95,32.5-15.95s8.86-.59,15.36-3.55,23.04-13.89,28.36-13,14.58-1.28,16.35-1.67,6.3,2.76,8.67,2.56,14.18-4.14,21.08-1.38,40.77,21.08,43.92,22.45c3.15,1.38,6.7,1.18,8.67,2.56s12.01,5.32,14.97,5.32,6.7.98,9.65,3.15,11.62,7.29,16.15,6.89,16.54.98,23.83,4.14c7.29,3.15,13.59,6.3,21.08,7.48s38.21,14.97,41.36,16.74,28.17,7.09,36.44,8.08c8.27.98,16.15,5.51,27.18,5.12,11.03-.39,36.24-7.09,44.12-3.15,7.88,3.94,19.89,5.32,30.92,3.35,11.03-1.97,26.2-5.32,31.71-2.36,5.51,2.95,10.44,1.18,13.98-1.97s27.57-3.74,41.17.98c13.59,4.73,16.15,2.36,27.67,5.91,11.52,3.55,798.59,169.29,798.59,169.29H0Z" />
+            <path class="uuid-c7ea6068-8563-4d3b-9d2c-38d456cb3893"
+              d="m127.19,255.2s257.04-83.32,274.76-85.97c17.73-2.66,60.86-22.15,69.13-14.62,9.75,8.86,23.49-1.66,28.36-1.72,4.87-.06,87.3-1.39,91.74-1.83,4.43-.44,22.16-5.05,30.14-4.07,7.98.97,15.07-6.56,24.37-4.79,9.31,1.77,30.58-5.76,38.11-2.66,7.53,3.1,705.08,115.67,705.08,115.67H127.19Z" />
+            <path class="uuid-f8395307-4d15-4689-9d8d-07f2f4de8dd0"
+              d="m777.76,234.81s160.87-70.46,170.62-78c9.75-7.53,19.2-16.35,23.93-15.36,4.73.98,9.65.35,11.03-2.68,1.38-3.03,3.15-4.02,7.88-3.23s19.3-1.18,23.44-3.35c4.14-2.17,53.38,17.53,61.8,19.3,8.42,1.77,15.95-2.22,23.93,3.55,7.98,5.76,228.23,100.16,228.23,100.16h-593.4l42.54-20.39Z" />
+            <path class="uuid-0c18c07a-89f2-44fa-a5a4-9324a8f038d6"
+              d="m795.04,146.98s26-28.37,39-22.27c13,6.11,13.79,9.26,21.86,8.27s12.21-1.44,19.5,2.43c7.29,3.87,18.12,11.97,26.2,11.56,8.08-.41,2.95,2.94,12.21,3.14,9.26.2,11.82-7.48,13.39-4.33,1.58,3.15.79,4.73,7.29,7.88l226.9,101.53h-632.84s136.5-51.38,164.27-61.58c27.77-10.21,68.54-46.42,79.18-46.63,10.64-.21,23.04,0,23.04,0Z" />
+            <path class="uuid-02ad4dd5-6369-4b75-a6d3-4a5ff8357451"
+              d="m320.41,255.2s151.56-25.26,164.86-31.46,36.78-18.04,41.21-26.75c4.43-8.71,10.19-44.6,16.4-40.61s16,12.85,19.94,13.64,6.3.59,9.45,4.14c3.15,3.55,16.15,6.7,22.26,5.12,6.11-1.58,6.89-2.56,14.97-.79,8.08,1.77,25.01.98,32.5-2.56,7.48-3.55,6.7-4.73,9.26-.59,2.56,4.14,7.48,15.54,27.77,21.66,20.29,6.12,188.69,58.21,188.69,58.21H320.41Z" />
+          </g>
+        </svg>
+      </div>
+    </div>
     <!-- <div width="100%"> -->
     <!-- <div class="col-sm-12"> -->
+      
+
+      <div class="flex-container">
+        <div class="pumpkin-unit" id="pumpkin">
+          <div class="stem"></div>
+          <div class="pumpkin">
+            <div class="body">
+              <div class="layer"></div>
+              <div class="layer"></div>
+              <div class="layer"></div>
+            </div>
+            <div class="face">
+              <div class="eye left"></div>
+              <div class="eye right"></div>
+              <div class="nose"></div>
+              <div class="mouth"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div class="sun"></div>
     <div class="moon">
       <div></div>
